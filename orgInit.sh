@@ -7,3 +7,36 @@ sfdx force:user:permset:assign -n customerExpPerms
 sfdx shane:org:reauth -r --json
 sfdx shane:theme:activate -n Electron
 sfdx force:org:open
+sfdx force:user:password:generate
+sfdx force:apex:execute -f scripts/sampleWipe.cls
+sfdx force:apex:execute -f scripts/roleAssign.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
+sfdx force:apex:execute -f scripts/accountGen.cls
