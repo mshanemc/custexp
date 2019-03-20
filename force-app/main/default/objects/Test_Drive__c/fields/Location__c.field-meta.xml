@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>Location</label>
+    <type>Text</type>
+    <fullName>Location__c</fullName>
+    <length>255</length>
+</CustomField>
