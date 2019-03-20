@@ -1,0 +1,53 @@
+{
+  "mappings": [
+    {
+      "object_name": "Test_Drive__c",
+      "config": {
+        "access": "read_write",
+        "sf_notify_enabled": true,
+        "sf_polling_seconds": 600,
+        "sf_max_daily_api_calls": 30000,
+        "fields": {
+          "Email__c": {},
+          "First_Name__c": {},
+          "Name": {},
+          "Location__c": {},
+          "Last_Name__c": {},
+          "IsDeleted": {},
+          "SystemModstamp": {},
+          "External_ID__c": {},
+          "Phone__c": {},
+          "CreatedDate": {},
+          "Model__c": {},
+          "Id": {}
+        },
+        "indexes": {
+          "SystemModstamp": {
+            "unique": false
+          },
+          "External_ID__c": {
+            "unique": true
+          },
+          "Id": {
+            "unique": true
+          }
+        },
+        "upsert_field": "External_ID__c"
+      }
+    }
+  ],
+  "connection": {
+    "app_name": "electron-web",
+    "organization_id": "00DR0000001vWiaMAE",
+    "exported_at": "2019-03-20T20:28:06.111425+00:00",
+    "features": {
+      "poll_db_no_merge": true,
+      "poll_external_ids": false,
+      "rest_count_only": false
+    },
+    "api_version": "45.0",
+    "name": "",
+    "logplex_log_enabled": false
+  },
+  "version": 1
+}
