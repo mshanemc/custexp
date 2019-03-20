@@ -1,9 +1,16 @@
 {
   "orgName": "solutions-customer-experience",
   "edition": "Developer",
+  "hasSampleData": "true",
+  "features": [
+    "Communities",
+    "EinsteinAssistant",
+    "SiteDotCom",
+    "Sites"
+  ],
   "settings": {
     "orgPreferenceSettings": {
-      "networksEnabled": false,
+      "networksEnabled": true,
       "s1DesktopEnabled": true,
       "pathAssistantsEnabled": true,
       "s1EncryptedStoragePref2": false
