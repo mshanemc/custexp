@@ -10,6 +10,10 @@ update acc;
 
 contact con = new Contact();
 con.firstName = 'Tex';
+con.Title = 'New Car Sales Representative';
+con.Phone = '8324728022';
+con.MobilePhone = '8324728023';
+con.Department = 'New Car Sales';
 con.lastname = 'Hatley';
 con.accountId = acc.Id;
 con.email = 'tex' + Datetime.now().format('yyyyMMddHHmmss') + '@electronofhouston.com';
