@@ -30,9 +30,6 @@ User user = new User(alias = 'test123', email=con.email,
                 timezonesidkey='America/Los_Angeles', username=con.email);       
 insert user;
 
-// assign the usr a permset
-
-
 /*
 
 delete [select id from Account where name = 'Electron of Houston'];

@@ -11,6 +11,7 @@ sfdx force:org:open
 sfdx force:apex:execute -f scripts/sampleWipe.cls
 sfdx force:apex:execute -f scripts/roleAssign.cls
 sfdx force:apex:execute -f scripts/DealerSetup.cls
+sfdx force:apex:execute -f scripts/DealerPerms.cls
 sfdx force:apex:execute -f scripts/accountGen.cls
 sfdx force:apex:execute -f scripts/accountGen.cls
 sfdx force:apex:execute -f scripts/accountGen.cls
