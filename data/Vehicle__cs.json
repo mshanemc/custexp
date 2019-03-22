@@ -1,0 +1,973 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef1"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flint",
+            "Paint__c": "1000",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "Black Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef1"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef2"
+            },
+            "Year__c": "2019",
+            "Status__c": "Purchase",
+            "Model__c": "Flare",
+            "Paint__c": "1000",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Black Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": true,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef2"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef3"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flare",
+            "Paint__c": "4150",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Light Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": true,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef3"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef4"
+            },
+            "Year__c": "2019",
+            "Status__c": "Ownership",
+            "Model__c": "Flare",
+            "Paint__c": "55",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "Cream Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100P kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef4"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef5"
+            },
+            "Year__c": "2019",
+            "Status__c": "Ownership",
+            "Model__c": "Flash",
+            "Paint__c": "130",
+            "Wheels__c": "19\" Onyx Black Spinners",
+            "Interior__c": "Cream Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef5"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef6"
+            },
+            "Year__c": "2019",
+            "Status__c": "Purchase",
+            "Model__c": "Flash",
+            "Paint__c": "130",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Light Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": true,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": true,
+            "Owner__c": "@ContactRef6"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef7"
+            },
+            "Year__c": "2019",
+            "Status__c": "Evaluation",
+            "Model__c": "Flare",
+            "Paint__c": "0",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "White Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": true,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef7"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef8"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flash",
+            "Paint__c": "130",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "White Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef8"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef9"
+            },
+            "Year__c": "2019",
+            "Status__c": "Purchase",
+            "Model__c": "Flint",
+            "Paint__c": "230",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "Light Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": false,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": false,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": true,
+            "Owner__c": "@ContactRef9"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef10"
+            },
+            "Year__c": "2019",
+            "Status__c": "Purchase",
+            "Model__c": "Flare",
+            "Paint__c": "55",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "Cream Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef10"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef11"
+            },
+            "Year__c": "2019",
+            "Status__c": "Ownership",
+            "Model__c": "Flare",
+            "Paint__c": "4150",
+            "Wheels__c": "19\" Onyx Black Spinners",
+            "Interior__c": "Cream Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef11"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef12"
+            },
+            "Year__c": "2019",
+            "Status__c": "Purchase",
+            "Model__c": "Flare",
+            "Paint__c": "4150",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Black Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": true,
+            "Owner__c": "@ContactRef12"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef13"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flash",
+            "Paint__c": "230",
+            "Wheels__c": "19\" Onyx Black Spinners",
+            "Interior__c": "Light Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100P kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef13"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef14"
+            },
+            "Year__c": "2019",
+            "Status__c": "Evaluation",
+            "Model__c": "Flint",
+            "Paint__c": "1000",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Cream Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": true,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef14"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef15"
+            },
+            "Year__c": "2019",
+            "Status__c": "Ownership",
+            "Model__c": "Flash",
+            "Paint__c": "230",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Black Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100P kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef15"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef16"
+            },
+            "Year__c": "2019",
+            "Status__c": "Ownership",
+            "Model__c": "Flare",
+            "Paint__c": "55",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Light Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef16"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef17"
+            },
+            "Year__c": "2019",
+            "Status__c": "Delivery",
+            "Model__c": "Flare",
+            "Paint__c": "1000",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "White Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100P kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef17"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef18"
+            },
+            "Year__c": "2019",
+            "Status__c": "Ownership",
+            "Model__c": "Flash",
+            "Paint__c": "0",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "Black Textile",
+            "Autopilot__c": false,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef18"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef19"
+            },
+            "Year__c": "2019",
+            "Status__c": "Purchase",
+            "Model__c": "Flare",
+            "Paint__c": "230",
+            "Wheels__c": "19\" Onyx Black Spinners",
+            "Interior__c": "Light Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": false,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef19"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef20"
+            },
+            "Year__c": "2019",
+            "Status__c": "Evaluation",
+            "Model__c": "Flint",
+            "Paint__c": "1000",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Black Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": false,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef20"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef21"
+            },
+            "Year__c": "2019",
+            "Status__c": "Ownership",
+            "Model__c": "Flare",
+            "Paint__c": "130",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Cream Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef21"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef22"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flare",
+            "Paint__c": "4150",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Black Textile",
+            "Autopilot__c": false,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": true,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef22"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef23"
+            },
+            "Year__c": "2019",
+            "Status__c": "Purchase",
+            "Model__c": "Flare",
+            "Paint__c": "4150",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Black Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": false,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": true,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": true,
+            "Owner__c": "@ContactRef23"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef24"
+            },
+            "Year__c": "2019",
+            "Status__c": "Ownership",
+            "Model__c": "Flare",
+            "Paint__c": "4150",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "White Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": false,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": false,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef51"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef25"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flare",
+            "Paint__c": "230",
+            "Wheels__c": "19\" Onyx Black Spinners",
+            "Interior__c": "Black Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100P kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef25"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef26"
+            },
+            "Year__c": "2019",
+            "Status__c": "Evaluation",
+            "Model__c": "Flint",
+            "Paint__c": "130",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Cream Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef26"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef27"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flint",
+            "Paint__c": "130",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Black Textile",
+            "Autopilot__c": true,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef27"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef28"
+            },
+            "Year__c": "2019",
+            "Status__c": "Evaluation",
+            "Model__c": "Flint",
+            "Paint__c": "0",
+            "Wheels__c": "19\" Onyx Black Spinners",
+            "Interior__c": "Light Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef28"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef29"
+            },
+            "Year__c": "2019",
+            "Status__c": "Evaluation",
+            "Model__c": "Flare",
+            "Paint__c": "1000",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Black Textile",
+            "Autopilot__c": true,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef29"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef30"
+            },
+            "Year__c": "2019",
+            "Status__c": "Evaluation",
+            "Model__c": "Flare",
+            "Paint__c": "130",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "Light Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef30"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef31"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flint",
+            "Paint__c": "55",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Cream Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": false,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef31"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef32"
+            },
+            "Year__c": "2019",
+            "Status__c": "Purchase",
+            "Model__c": "Flint",
+            "Paint__c": "230",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "Cream Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": false,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": true,
+            "Owner__c": "@ContactRef32"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef33"
+            },
+            "Year__c": "2019",
+            "Status__c": "Delivery",
+            "Model__c": "Flare",
+            "Paint__c": "4150",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Light Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef33"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef34"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flare",
+            "Paint__c": "130",
+            "Wheels__c": "19\" Onyx Black Spinners",
+            "Interior__c": "Black Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef34"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef35"
+            },
+            "Year__c": "2019",
+            "Status__c": "Ownership",
+            "Model__c": "Flare",
+            "Paint__c": "130",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Black Textile",
+            "Autopilot__c": true,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": true,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef35"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef36"
+            },
+            "Year__c": "2019",
+            "Status__c": "Evaluation",
+            "Model__c": "Flare",
+            "Paint__c": "4150",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Cream Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": false,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef36"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef37"
+            },
+            "Year__c": "2019",
+            "Status__c": "Purchase",
+            "Model__c": "Flare",
+            "Paint__c": "230",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Cream Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef37"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef38"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flash",
+            "Paint__c": "1000",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Cream Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": false,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef38"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef39"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flare",
+            "Paint__c": "230",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "White Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": true,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef39"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef40"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flash",
+            "Paint__c": "0",
+            "Wheels__c": "19\" Onyx Black Spinners",
+            "Interior__c": "Cream Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef40"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef41"
+            },
+            "Year__c": "2019",
+            "Status__c": "Evaluation",
+            "Model__c": "Flash",
+            "Paint__c": "4150",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Black Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": false,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef41"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef42"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flare",
+            "Paint__c": "230",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "Black Textile",
+            "Autopilot__c": false,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef42"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef43"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flash",
+            "Paint__c": "0",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "White Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef43"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef44"
+            },
+            "Year__c": "2019",
+            "Status__c": "Delivery",
+            "Model__c": "Flash",
+            "Paint__c": "4150",
+            "Wheels__c": "19\" Onyx Black Spinners",
+            "Interior__c": "Black Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100P kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef44"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef45"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flare",
+            "Paint__c": "55",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "Black Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": false,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": false,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef45"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef46"
+            },
+            "Year__c": "2019",
+            "Status__c": "Evaluation",
+            "Model__c": "Flare",
+            "Paint__c": "230",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Light Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": true,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100P kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef46"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef47"
+            },
+            "Year__c": "2019",
+            "Status__c": "Ownership",
+            "Model__c": "Flash",
+            "Paint__c": "0",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Cream Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef47"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef48"
+            },
+            "Year__c": "2019",
+            "Status__c": "Purchase",
+            "Model__c": "Flint",
+            "Paint__c": "0",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "Light Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": true,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef48"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef49"
+            },
+            "Year__c": "2019",
+            "Status__c": "Ownership",
+            "Model__c": "Flint",
+            "Paint__c": "4150",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "Black Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "75 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef49"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef50"
+            },
+            "Year__c": "2019",
+            "Status__c": "Delivery",
+            "Model__c": "Flare",
+            "Paint__c": "55",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Black Textile",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef50"
+        },
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "Vehicle__cRef51"
+            },
+            "Year__c": "2019",
+            "Status__c": "Manufacturing",
+            "Model__c": "Flare",
+            "Paint__c": "130",
+            "Wheels__c": "19\" Sonic Carbon Wheels",
+            "Interior__c": "Black Premium",
+            "Autopilot__c": true,
+            "Sunroof__c": false,
+            "Rear_Seats__c": true,
+            "Hydraulic_System__c": false,
+            "Battery__c": "100P kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@ContactRef51"
+        }
+    ]
+}

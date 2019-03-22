@@ -1,0 +1,164 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Loan__c",
+                "referenceId": "Loan__cRef1"
+            },
+            "Status__c": "Pending",
+            "Vehicle__c": "@Vehicle__cRef2",
+            "Price__c": 104970,
+            "Terms__c": 30,
+            "Interest__c": 8,
+            "Downpayment__c": 10000,
+            "FirstName__c": "Tanya",
+            "LastName__c": "Edwards",
+            "SSN__c": "555555555",
+            "Customer__c": "@ContactRef2"
+        },
+        {
+            "attributes": {
+                "type": "Loan__c",
+                "referenceId": "Loan__cRef2"
+            },
+            "Status__c": "Approved",
+            "Vehicle__c": "@Vehicle__cRef6",
+            "Price__c": 70757,
+            "Terms__c": 30,
+            "Interest__c": 4,
+            "Downpayment__c": 11000,
+            "FirstName__c": "Debra",
+            "LastName__c": "Jennings",
+            "SSN__c": "555555555",
+            "Customer__c": "@ContactRef6"
+        },
+        {
+            "attributes": {
+                "type": "Loan__c",
+                "referenceId": "Loan__cRef3"
+            },
+            "Status__c": "Approved",
+            "Vehicle__c": "@Vehicle__cRef9",
+            "Price__c": 106932,
+            "Terms__c": 60,
+            "Interest__c": 2,
+            "Downpayment__c": 6000,
+            "FirstName__c": "Jim",
+            "LastName__c": "Sims",
+            "SSN__c": "555555555",
+            "Customer__c": "@ContactRef9"
+        },
+        {
+            "attributes": {
+                "type": "Loan__c",
+                "referenceId": "Loan__cRef4"
+            },
+            "Status__c": "Approved",
+            "Vehicle__c": "@Vehicle__cRef10",
+            "Price__c": 138430,
+            "Terms__c": 30,
+            "Interest__c": 6,
+            "Downpayment__c": 4000,
+            "FirstName__c": "Brandie",
+            "LastName__c": "Martinez",
+            "SSN__c": "555555555",
+            "Customer__c": "@ContactRef10"
+        },
+        {
+            "attributes": {
+                "type": "Loan__c",
+                "referenceId": "Loan__cRef5"
+            },
+            "Status__c": "Declined",
+            "Vehicle__c": "@Vehicle__cRef12",
+            "Price__c": 109739,
+            "Terms__c": 60,
+            "Interest__c": 10,
+            "Downpayment__c": 14000,
+            "FirstName__c": "Bob",
+            "LastName__c": "Fernandez",
+            "SSN__c": "555555555",
+            "Customer__c": "@ContactRef12"
+        },
+        {
+            "attributes": {
+                "type": "Loan__c",
+                "referenceId": "Loan__cRef6"
+            },
+            "Status__c": "Approved",
+            "Vehicle__c": "@Vehicle__cRef19",
+            "Price__c": 104771,
+            "Terms__c": 90,
+            "Interest__c": 4,
+            "Downpayment__c": 9000,
+            "FirstName__c": "Jon",
+            "LastName__c": "Ramos",
+            "SSN__c": "555555555",
+            "Customer__c": "@ContactRef19"
+        },
+        {
+            "attributes": {
+                "type": "Loan__c",
+                "referenceId": "Loan__cRef7"
+            },
+            "Status__c": "Approved",
+            "Vehicle__c": "@Vehicle__cRef23",
+            "Price__c": 93004,
+            "Terms__c": 90,
+            "Interest__c": 7,
+            "Downpayment__c": 11000,
+            "FirstName__c": "Clarence",
+            "LastName__c": "Hoffman",
+            "SSN__c": "555555555",
+            "Customer__c": "@ContactRef23"
+        },
+        {
+            "attributes": {
+                "type": "Loan__c",
+                "referenceId": "Loan__cRef8"
+            },
+            "Status__c": "Approved",
+            "Vehicle__c": "@Vehicle__cRef32",
+            "Price__c": 57871,
+            "Terms__c": 60,
+            "Interest__c": 7,
+            "Downpayment__c": 18000,
+            "FirstName__c": "Manuel",
+            "LastName__c": "Walters",
+            "SSN__c": "555555555",
+            "Customer__c": "@ContactRef32"
+        },
+        {
+            "attributes": {
+                "type": "Loan__c",
+                "referenceId": "Loan__cRef9"
+            },
+            "Status__c": "Approved",
+            "Vehicle__c": "@Vehicle__cRef37",
+            "Price__c": 77561,
+            "Terms__c": 60,
+            "Interest__c": 9,
+            "Downpayment__c": 11000,
+            "FirstName__c": "Leon",
+            "LastName__c": "Johnston",
+            "SSN__c": "555555555",
+            "Customer__c": "@ContactRef37"
+        },
+        {
+            "attributes": {
+                "type": "Loan__c",
+                "referenceId": "Loan__cRef10"
+            },
+            "Status__c": "Pending",
+            "Vehicle__c": "@Vehicle__cRef48",
+            "Price__c": 157912,
+            "Terms__c": 90,
+            "Interest__c": 7,
+            "Downpayment__c": 10000,
+            "FirstName__c": "Ivan",
+            "LastName__c": "Fleming",
+            "SSN__c": "555555555",
+            "Customer__c": "@ContactRef48"
+        }
+    ]
+}

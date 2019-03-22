@@ -1,0 +1,34 @@
+[
+    {
+        "sobject": "Account",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Accounts.json"
+        ]
+    },
+    {
+        "sobject": "Contact",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Contacts.json"
+        ]
+    },
+    {
+        "sobject": "Vehicle__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Vehicle__cs.json"
+        ]
+    },
+    {
+        "sobject": "Loan__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Loan__cs.json"
+        ]
+    }
+]
