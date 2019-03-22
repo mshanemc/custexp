@@ -1,0 +1,14 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Invoice__c",
+                "referenceId": "JodiInvoice"
+            },
+            "Vehicle__c" : "@JodiCar",
+            "Customer__c": "@JodiCon",
+            "Price__c": 104970,
+            "Status__c": "Paid"
+        }
+    ]
+}

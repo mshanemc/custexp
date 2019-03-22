@@ -1,0 +1,34 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Campaign",
+                "referenceId": "GabeCamp"
+            },
+            "Status": "In Progress",
+            "IsActive": true,
+            "Name" : "2019 Flint Promotion",
+            "Type" : "Direct Mail"
+        },
+        {
+            "attributes": {
+                "type": "Campaign",
+                "referenceId": "JodiCamp1"
+            },
+            "Status": "Completed",
+            "IsActive": true,
+            "Name" : "Customer Appreciate Week",
+            "Type" : "Other"
+        },
+        {
+            "attributes": {
+                "type": "Campaign",
+                "referenceId": "JodiCamp2"
+            },
+            "Status": "Completed",
+            "IsActive": true,
+            "Name" : "Extended Maintenance Program",
+            "Type" : "Referral"
+        }
+    ]
+}

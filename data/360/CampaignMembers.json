@@ -1,0 +1,31 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "CampaignMember",
+                "referenceId": "GabeCM"
+            },
+            "CampaignId" : "@GabeCamp",
+            "ContactId": "@GabeCon",
+            "Status" : "Responded"
+        },
+        {
+            "attributes": {
+                "type": "CampaignMember",
+                "referenceId": "JodiCM1"
+            },
+            "CampaignId" : "@JodiCamp1",
+            "ContactId": "@JodiCon",
+            "Status" : "Responded"
+        },
+        {
+            "attributes": {
+                "type": "CampaignMember",
+                "referenceId": "JodiCM2"
+            },
+            "CampaignId" : "@JodiCamp2",
+            "ContactId": "@JodiCon",
+            "Status" : "Responded"
+        }
+    ]
+}

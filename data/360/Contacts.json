@@ -1,0 +1,40 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "GabeCon"
+            },
+            "FirstName": "Gabe",
+            "LastName": "Sumner",
+            "Email": "gsumner@example.com",
+            "Phone": "(626)-198-7507",
+            "MobilePhone": "(847)-591-5355",
+            "MailingStreet": "77820 Vineyard Canyon Road",
+            "MailingCity": "San Miguel",
+            "MailingPostalCode": "93451",
+            "MailingCountry": "USA",            
+            "AccountId": "@GabeAcct"
+        },
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "JodiCon"
+            },
+            "FirstName": "Jodi",
+            "LastName": "Innerfield",
+            "Email": "jinnerfield@example.com",
+            "Phone": "(591)-249-9928",
+            "MobilePhone": "(634)-773-4325",
+            "MailingStreet": "300 Spectrum Center Drive",
+            "MailingCity": "Irvine",
+            "MailingPostalCode": "92618",
+            "MailingCountry": "USA",
+            "OtherStreet": "300 Spectrum Center Drive",
+            "OtherCity": "Irvine",
+            "OtherPostalCode": "92618",
+            "OtherCountry": "USA",
+            "AccountId": "@JodiAcct"
+        }
+    ]
+}

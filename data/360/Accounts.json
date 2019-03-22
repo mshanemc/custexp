@@ -1,0 +1,32 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "GabeAcct"
+            },
+            "Name": "Gabe Sumner",
+            "Phone": "(626)-198-7507",            
+            "Type": "Customer"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "JodiAcct"
+            },
+            "Name": "Jodi Innerfield",
+            "AccountNumber": "145914164",
+            "Phone": "(591)-249-9928",
+            "BillingStreet": "300 Spectrum Center Drive",
+            "BillingCity": "Irvine",
+            "BillingPostalCode": "92618",
+            "BillingCountry": "USA",
+            "ShippingStreet": "300 Spectrum Center Drive",
+            "ShippingCity": "Irvine",
+            "ShippingState": "CA",
+            "ShippingPostalCode": "92618",
+            "ShippingCountry": "USA",
+            "Type": "Customer"
+        }
+    ]
+}

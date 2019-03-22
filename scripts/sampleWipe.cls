@@ -1,3 +1,9 @@
+delete [select id from Event];
+delete [select id from Invoice__c];
+delete [select id from OpportunityContactRole];
+delete [select id from Loan__c];
+delete [select id from Vehicle__c];
+delete [select id from campaignMember];
 delete [select id from lead];
 delete [select id from campaign];
 delete [select id from case];

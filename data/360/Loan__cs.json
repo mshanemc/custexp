@@ -1,0 +1,35 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Loan__c",
+                "referenceId": "JodiLoan"
+            },
+            "Status__c": "Approved",
+            "Vehicle__c": "@JodiCar",
+            "Price__c": 104970,
+            "Terms__c": 30,
+            "Interest__c": 4,
+            "Downpayment__c": 10000,
+            "FirstName__c": "Jodi",
+            "LastName__c": "Innerfield",
+            "SSN__c": "555555555",
+            "Customer__c": "@JodiCon"
+        },
+        {
+            "attributes": {
+                "type": "Loan__c",
+                "referenceId": "GabeLoan"
+            },
+            "Status__c": "Pending",
+            "Price__c": 104970,
+            "Terms__c": 30,
+            "Interest__c": 3,
+            "Downpayment__c": 20000,
+            "FirstName__c": "Gabe",
+            "LastName__c": "Sumner",
+            "SSN__c": "555555555",
+            "Customer__c": "@GabeCon"
+        }
+    ]
+}

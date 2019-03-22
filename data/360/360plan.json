@@ -1,0 +1,83 @@
+[
+    {
+        "sobject": "Account",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Accounts.json"
+        ]
+    },
+    {
+        "sobject": "Campaign",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Campaigns.json"
+        ]
+    },
+    {
+        "sobject": "Contact",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Contacts.json"
+        ]
+    },
+    {
+        "sobject": "Vehicle__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Vehicle__cs.json"
+        ]
+    },
+    {
+        "sobject": "Loan__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Loan__cs.json"
+        ]
+    },
+    {
+        "sobject": "Opportunity",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Opportunities.json"
+        ]
+    },
+    {
+        "sobject": "OpportunityContactRole",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "OCR.json"
+        ]
+    },
+    {
+        "sobject": "CampaignMember",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "CampaignMembers.json"
+        ]
+    },
+    {
+        "sobject": "Event",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Events.json"
+        ]
+    },
+    {
+        "sobject": "Invoice__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Invoice__cs.json"
+        ]
+    }
+
+]

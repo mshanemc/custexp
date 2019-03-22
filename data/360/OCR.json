@@ -1,0 +1,22 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "GabeOCR"
+            },
+            "OpportunityId" : "@GabeOppty",
+            "ContactId": "@GabeCon",
+            "IsPrimary": true
+        },
+        {
+            "attributes": {
+                "type": "OpportunityContactRole",
+                "referenceId": "JodiOCR"
+            },
+            "OpportunityId" : "@JodiOppty",
+            "ContactId": "@JodiCon",
+            "IsPrimary": true
+        }
+    ]
+}

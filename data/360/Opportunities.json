@@ -1,0 +1,27 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "GabeOppty"
+            },
+            "Amount": 104970,
+            "CloseDate": "2019-04-01T10:00:00-08:00",
+            "AccountId": "@GabeAcct",
+            "Name": "Gabe Sumner 2019 Flint", 
+            "StageName": "Negotiation/Review",
+            "CampaignId": "@GabeCamp"
+        },
+        {
+            "attributes": {
+                "type": "Opportunity",
+                "referenceId": "JodiOppty"
+            },
+            "Amount": 104970,
+            "CloseDate": "2018-12-01T10:00:00-08:00",
+            "AccountId": "@JodiAcct",
+            "Name": "Jodi Innerfield 2019 Flint", 
+            "StageName": "Closed Won"
+        }
+    ]
+}

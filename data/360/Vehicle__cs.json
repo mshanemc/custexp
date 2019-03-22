@@ -1,0 +1,23 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Vehicle__c",
+                "referenceId": "JodiCar"
+            },
+            "Year__c": "2019",
+            "Status__c": "Ownership",
+            "Model__c": "Flint",
+            "Paint__c": "1000",
+            "Wheels__c": "19\" Silver Wheels",
+            "Interior__c": "Black Premium",
+            "Autopilot__c": false,
+            "Sunroof__c": true,
+            "Rear_Seats__c": false,
+            "Hydraulic_System__c": true,
+            "Battery__c": "100 kWh",
+            "Cancelled__c": false,
+            "Owner__c": "@JodiCon"
+        }
+    ]
+}
