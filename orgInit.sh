@@ -18,6 +18,7 @@ sfdx force:apex:execute -f scripts/DealerPerms.cls
 sfdx force:data:tree:import -p data/main/masterPlan.json 
 sfdx force:data:tree:import -p data/360/360plan.json
 
+sfdx shane:org:reauth -r --json
 sfdx force:user:password:generate
 
 # sfdx shane:heroku:repo:deploy -g mshanemc -r electron-web-app -n `basename "${PWD}"` -t autodeployed-demos
