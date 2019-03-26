@@ -5,7 +5,7 @@
     <label>ExternalIdentity</label>
     <oauthConfig>
         <callbackUrl>http://localhost:3030/token</callbackUrl>
-        <consumerKey>12345678</consumerKey>
+        <consumerKey>solution2x1553611852255</consumerKey>
         <consumerSecret>12345678abcdefg12345678abcdefg12345678</consumerSecret>
         <scopes>Basic</scopes>
         <scopes>Api</scopes>
@@ -15,5 +15,4 @@
         <endAddress>255.255.255.255</endAddress>
         <startAddress>0.0.0.0</startAddress>
     </ipRanges>
-
 </ConnectedApp>
