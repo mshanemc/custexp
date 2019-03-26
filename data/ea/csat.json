@@ -1,0 +1,62 @@
+{
+  "fileFormat": {
+    "charsetName": "UTF-8",
+    "fieldsDelimitedBy": ",",
+    "linesTerminatedBy": "\n"
+  },
+  "objects": [
+    {
+      "connector": "CSV",
+      "fullyQualifiedName": "csat_csv",
+      "label": "csat.csv",
+      "name": "csat_csv",
+      "fields": [
+        {
+          "fullyQualifiedName": "id",
+          "name": "id",
+          "type": "Numeric",
+          "label": "id",
+          "precision": 18,
+          "defaultValue": "0",
+          "scale": 0,
+          "format": "0"
+        },
+        {
+          "fullyQualifiedName": "CSAT_Dealer",
+          "name": "CSAT_Dealer",
+          "type": "Numeric",
+          "label": "CSAT (Dealer)",
+          "precision": 18,
+          "defaultValue": "0",
+          "scale": 2,
+          "format": "0.0#",
+          "decimalSeparator": "."
+        },
+        {
+          "fullyQualifiedName": "Channel",
+          "name": "Channel",
+          "type": "Text",
+          "label": "Channel"
+        },
+        {
+          "fullyQualifiedName": "CSAT_Electron",
+          "name": "CSAT_Electron",
+          "type": "Numeric",
+          "label": "CSAT (Electron)",
+          "precision": 18,
+          "defaultValue": "0",
+          "scale": 2,
+          "format": "0.0#",
+          "decimalSeparator": "."
+        },
+        {
+          "fullyQualifiedName": "date",
+          "name": "date",
+          "type": "Date",
+          "label": "date",
+          "format": "M/d/yyyy"
+        }
+      ]
+    }
+  ]
+}

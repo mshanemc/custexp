@@ -1,0 +1,40 @@
+{
+  "fileFormat": {
+    "charsetName": "UTF-8",
+    "fieldsDelimitedBy": ",",
+    "linesTerminatedBy": "\n"
+  },
+  "objects": [
+    {
+      "connector": "CSV",
+      "fullyQualifiedName": "deliveries_csv",
+      "label": "deliveries.csv",
+      "name": "deliveries_csv",
+      "fields": [
+        {
+          "fullyQualifiedName": "id",
+          "name": "id",
+          "type": "Numeric",
+          "label": "id",
+          "precision": 18,
+          "defaultValue": "0",
+          "scale": 0,
+          "format": "0"
+        },
+        {
+          "fullyQualifiedName": "Date",
+          "name": "Date",
+          "type": "Date",
+          "label": "Date",
+          "format": "M/d/yyyy"
+        },
+        {
+          "fullyQualifiedName": "Model",
+          "name": "Model",
+          "type": "Text",
+          "label": "Model"
+        }
+      ]
+    }
+  ]
+}
