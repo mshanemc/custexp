@@ -8,7 +8,8 @@
             "FirstName": "Bandar",
             "LastName": "El-Eita",
             "Email": "bandar@salesforce.com",
-            "Company": "Electron of Houston"          
+            "Company": "Electron of Houston",
+            "Status": "Not Contacted"          
         },
         {
             "attributes": {
@@ -18,7 +19,8 @@
             "FirstName": "Christine",
             "LastName": "Duffy",
             "Phone": "(415)-198-7507",
-            "Company": "Electron of Houston"          
+            "Company": "Electron of Houston",
+            "Status": "Not Contacted"                    
         }
     ]
 }
