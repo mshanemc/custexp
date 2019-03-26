@@ -1,0 +1,36 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Task",
+                "referenceId": "Task1"
+            },
+            "Priority": "High",
+            "ActivityDate": "2019-04-01T10:00:00-08:00",
+            "Subject": "Paint color samples for Gabe", 
+            "Status": "Not Started",
+            "WhatId": "@GabeOppty",
+            "WhoId": "@GabeCon"
+        },
+        {
+            "attributes": {
+                "type": "Task",
+                "referenceId": "Task2"
+            },
+            "Priority": "Low",
+            "ActivityDate": "2019-05-01T10:00:00-08:00",
+            "Subject": "2019 New Product Training: Self-Driving Systems", 
+            "Status": "In Progress"
+        },
+        {
+            "attributes": {
+                "type": "Task",
+                "referenceId": "Task2"
+            },
+            "Priority": "Low",
+            "ActivityDate": "2019-06-01T10:00:00-08:00",
+            "Subject": "2019 New Product Training: Self-Parking", 
+            "Status": "Not Started"
+        }
+    ]
+}
