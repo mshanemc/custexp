@@ -36,15 +36,17 @@
     </navigationLinkSet>
     <networkMemberGroups>
         <profile>admin</profile>
+        <profile>external identity user</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
         <forgotPasswordPageOverrideSetting>Standard</forgotPasswordPageOverrideSetting>
         <homePageOverrideSetting>Designer</homePageOverrideSetting>
         <loginPageOverrideSetting>Standard</loginPageOverrideSetting>
-        <selfRegProfilePageOverrideSetting>Standard</selfRegProfilePageOverrideSetting>
+        <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
     <picassoSite>externalid1</picassoSite>
+    <selfRegProfile>external identity user</selfRegProfile>
     <selfRegistration>true</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
     <site>externalid</site>
