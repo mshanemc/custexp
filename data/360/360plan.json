@@ -86,6 +86,14 @@
         "files": [
             "Tasks.json"
         ]
+    },
+    {
+        "sobject": "Lead",
+        "saveRefs": false,
+        "resolveRefs": false,
+        "files": [
+            "Leads.json"
+        ]
     }
 
 ]
