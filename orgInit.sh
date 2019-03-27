@@ -13,6 +13,8 @@ sfdx force:source:push
 # contentassets throw error when pushed at the same time as the community they're part of.
 sfdx force:mdapi:deploy -d unpackagedMdapi/ -w 20 
 sfdx force:user:permset:assign -n customerExpPerms
+sfdx shane:communities:publish -n dealers
+sfdx shane:communities:publish -n externalid
 sfdx shane:org:reauth -r --json
 sfdx shane:theme:activate -n Electron
 sfdx force:org:open
