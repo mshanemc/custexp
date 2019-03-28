@@ -9,6 +9,7 @@
     <quaternaryColor>#B1BAC1</quaternaryColor>
     <quaternaryComplementColor>#222222</quaternaryComplementColor>
     <secondaryColor>#51606E</secondaryColor>
+    <staticLogoImageUrl>https://raw.githubusercontent.com/mshanemc/electron-web-app/master/public/img/electron_logo_horizontal.png</staticLogoImageUrl>
     <tertiaryColor>#DDE4E9</tertiaryColor>
     <tertiaryComplementColor>#222222</tertiaryComplementColor>
     <zeronaryColor>#51606E</zeronaryColor>
