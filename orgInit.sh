@@ -15,7 +15,6 @@ sfdx force:mdapi:deploy -d unpackagedMdapi/ -w 20
 sfdx force:user:permset:assign -n customerExpPerms
 sfdx shane:communities:publish -n dealers
 sfdx shane:communities:publish -n externalid
-sfdx shane:org:reauth -r --json
 sfdx shane:theme:activate -n Electron
 sfdx force:org:open
 sfdx force:apex:execute -f scripts/sampleWipe.cls
@@ -27,7 +26,6 @@ sfdx force:data:tree:import -p data/main/masterPlan.json
 sfdx force:data:tree:import -p data/360/360plan.json
 sfdx force:data:record:create -s Account -v "Name=ExternalIDCustomers"
 
-sfdx shane:org:reauth -r --json
 sfdx force:user:password:generate
 
 # heroku connect section
