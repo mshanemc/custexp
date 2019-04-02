@@ -16,8 +16,6 @@ sfdx force:user:permset:assign -n customerExpPerms
 sfdx shane:analytics:community:enable
 sfdx shane:communities:publish -n dealers
 sfdx shane:communities:publish -n externalid
-sfdx shane:communities:activate -n dealers
-sfdx shane:communities:activate -n externalid
 sfdx shane:analytics:app:share -n SharedApp --allprm --allcsp
 sfdx shane:theme:activate -n Electron
 sfdx force:org:open
