@@ -35,3 +35,9 @@ sfdx shane:heroku:repo:deploy -g mshanemc -r electron-web-app -n `basename "${PW
 heroku access:add platformpmmdemos@gmail.com -a `basename "${PWD/mshanemc-/}"` --permissions deploy,operate,manage
 heroku config:set DEALER_URL=`sfdx shane:communities:url --prefix dealers`  -a `basename "${PWD/mshanemc-/}"`
 heroku config:set LOGIN_URL=`sfdx shane:communities:url --prefix externalid`/s/login  -a `basename "${PWD/mshanemc-/}"`
+heroku pipelines:create `basename "${PWD/mshanemc-/}"` -a `basename "${PWD/mshanemc-/}"` -s production -t autodeployed-demo
+heroku pipelines:connect `basename "${PWD/mshanemc-/}"` -r mshanemc/electron-web-app
+heroku reviewapps:enable -a `basename "${PWD/mshanemc-/}"` -p `basename "${PWD/mshanemc-/}"` --autodeploy --autodestroy
+sfdx shane:heroku:repo:deploy -g mshanemc -r electron-web-app -n `basename "${PWD/mshanemc-/}"`-stg -t autodeployed-demos
+heroku pipelines:add `basename "${PWD/mshanemc-/}"` -a `basename "${PWD/mshanemc-/}"`-stg -s staging
+
