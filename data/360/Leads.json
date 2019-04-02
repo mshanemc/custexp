@@ -1,0 +1,26 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "Lead1"
+            },
+            "FirstName": "Bandar",
+            "LastName": "El-Eita",
+            "Email": "bandar@salesforce.com",
+            "Company": "Electron of Houston",
+            "Status": "Not Contacted"          
+        },
+        {
+            "attributes": {
+                "type": "Lead",
+                "referenceId": "Lead2"
+            },
+            "FirstName": "Christine",
+            "LastName": "Duffy",
+            "Phone": "(415)-198-7507",
+            "Company": "Electron of Houston",
+            "Status": "Not Contacted"                    
+        }
+    ]
+}

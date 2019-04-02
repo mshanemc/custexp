@@ -78,6 +78,22 @@
         "files": [
             "Invoice__cs.json"
         ]
+    },
+    {
+        "sobject": "Task",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Tasks.json"
+        ]
+    },
+    {
+        "sobject": "Lead",
+        "saveRefs": false,
+        "resolveRefs": false,
+        "files": [
+            "Leads.json"
+        ]
     }
 
 ]

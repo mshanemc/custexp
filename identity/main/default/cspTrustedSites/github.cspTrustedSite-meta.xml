@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CspTrustedSite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <context>Communities</context>
+    <description>github for images on login/register pages</description>
+    <endpointUrl>https://raw.githubusercontent.com</endpointUrl>
+    <isActive>true</isActive>
+</CspTrustedSite>

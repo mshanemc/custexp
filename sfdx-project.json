@@ -1,8 +1,14 @@
 {
-  "packageDirectories": [
+  "packageDirectories": [    
+    {
+      "path": "identity"
+    },
     {
       "path": "force-app",
       "default": true
+    },
+    {
+      "path": "analytics"
     }
   ],
   "namespace": "",
