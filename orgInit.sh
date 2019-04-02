@@ -20,5 +20,5 @@ sfdx force:data:tree:import -p data/360/360plan.json
 
 sfdx force:user:password:generate
 
-# sfdx shane:heroku:repo:deploy -g mshanemc -r electron-web-app -n `basename "${PWD}"` -t autodeployed-demos
-# heroku access:add platformpmmdemos@gmail.com -a `basename "${PWD}"` --permissions deploy,operate,manage
+sfdx shane:heroku:repo:deploy -g mshanemc -r electron-web-app -n `basename "${PWD}"` -t autodeployed-demos
+heroku access:add platformpmmdemos@gmail.com -a `basename "${PWD}"` --permissions deploy,operate,manage
