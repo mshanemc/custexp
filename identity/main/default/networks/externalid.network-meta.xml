@@ -35,8 +35,8 @@
         </navigationMenuItem>
     </navigationLinkSet>
     <networkMemberGroups>
-        <profile>admin</profile>
         <profile>external identity user</profile>
+        <profile>admin</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
