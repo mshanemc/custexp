@@ -1,0 +1,30 @@
+:host {
+    width: 100%;
+}
+
+.background-container {
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.photo-wrapper {
+    width: 100%;
+    position: relative;
+    animation-duration: 1s;
+    text-align: center;
+}
+
+.photo-wrapper img {
+    max-width: 900px;
+    width: 100%;
+    padding-left: 10%;
+	padding-right: 10%;    
+}
+
+@media only screen and (max-width: 800px) {
+    .photo-wrapper img {
+        padding-left: 10px;
+        padding-right: 10px;    
+    }    
+}

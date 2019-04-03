@@ -1,0 +1,17 @@
+@keyframes driveOff {
+    from {
+        left: 0;
+    }
+    to {
+        left: -2500px;
+    }
+}
+
+@keyframes driveIn {
+    from {
+        left: +2500px;
+    }
+    to {
+        left: 0;
+    }
+}
