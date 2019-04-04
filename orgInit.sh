@@ -39,4 +39,4 @@ heroku pipelines:create `basename "${PWD/mshanemc-/}"` -a `basename "${PWD/mshan
 heroku pipelines:connect `basename "${PWD/mshanemc-/}"` -r mshanemc/electron-web-app
 sfdx shane:heroku:repo:deploy -g mshanemc -r electron-web-app -n `basename "${PWD/mshanemc-/}"`-stg -t autodeployed-demos
 heroku pipelines:add `basename "${PWD/mshanemc-/}"` -a `basename "${PWD/mshanemc-/}"`-stg -s staging
-sfdx shane:heroku:connect -a `basename "${PWD/mshanemc-/}"` -f assets/herokuConnect/electron-web.json
+sfdx shane:heroku:connect -a `basename "${PWD/mshanemc-/}"` -f assets/herokuConnect/electron-web.json -e custom
