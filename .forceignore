@@ -14,5 +14,5 @@ package.xml
 # upstream profiles
 *Profile.profile
 AppSwitcher.appMenu
-WaveDataset
-WaveApplication
+*.wapp*
+*.wds*
