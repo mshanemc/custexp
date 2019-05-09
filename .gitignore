@@ -1,3 +1,4 @@
 node_modules
 .vscode/settings.json
 .DS_Store
+identity/main/default/connectedApps/ExternalIdentity.connectedApp-meta.xml

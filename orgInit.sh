@@ -11,14 +11,16 @@ sfdx shane:github:package:install -g mshanemc -r community-boilerplate
 sfdx force:user:permset:assign -n electron
 sfdx force:source:push
 # contentassets throw error when pushed at the same time as the community they're part of.
-sfdx force:mdapi:deploy -d unpackagedMdapi/ -w 20 
 sfdx force:user:permset:assign -n customerExpPerms
 sfdx shane:analytics:community:enable
+sfdx shane:communities:activate -n dealers
+sfdx shane:communities:activate -n externalid
 sfdx shane:communities:publish -n dealers
 sfdx shane:communities:publish -n externalid
 sfdx shane:analytics:app:share -n SharedApp --allprm --allcsp -c
 sfdx shane:theme:activate -n Electron
 sfdx force:org:open
+sfdx force:mdapi:deploy -d unpackagedMdapi/ -w 20 
 sfdx force:apex:execute -f scripts/sampleWipe.cls
 sfdx force:apex:execute -f scripts/roleAssign.cls
 sfdx force:apex:execute -f scripts/DealerSetup.cls
