@@ -14,9 +14,9 @@
       "componentName" : "forceCommunity:headline",
       "componentAttributes" : {
         "topicId" : "{!topicId}",
-        "pageType" : "discussion",
-        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
         "searchTerm" : "{!searchString}",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "discussion",
         "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
         "bannerText" : "",
         "title" : "Welcome!",
@@ -52,9 +52,9 @@
       "componentName" : "selfService:similarQuestions",
       "componentAttributes" : {
         "contextObjectId" : "{!recordId}",
-        "title" : "Related Questions",
         "showViewCounts" : "true",
-        "numberOfItems" : "5"
+        "numberOfItems" : "5",
+        "title" : "Related Questions"
       },
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },

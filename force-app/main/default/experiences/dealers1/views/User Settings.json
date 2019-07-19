@@ -19,8 +19,8 @@
       "componentName" : "forceCommunity:userSettings",
       "componentAttributes" : {
         "hideEmailNotificationSettings" : "false",
-        "id" : "{!recordId}",
-        "hideConnectedSources" : "false"
+        "hideConnectedSources" : "false",
+        "id" : "{!recordId}"
       },
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },

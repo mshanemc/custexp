@@ -47,9 +47,9 @@
       "components" : [ {
         "componentName" : "forceCommunity:globalSearchInput",
         "componentAttributes" : {
+          "searchObjects" : "[{\"name\":\"Lead\",\"isPublic\":false},{\"name\":\"Opportunity\",\"isPublic\":false},{\"name\":\"Campaign\",\"isPublic\":false},{\"name\":\"ContentDocument\",\"isPublic\":false},{\"name\":\"Contact\",\"isPublic\":true},{\"name\":\"Vehicle__c\",\"isPublic\":true}]",
           "searchLabel" : "Search...",
-          "maxAutoCompleteResults" : "5",
-          "searchObjects" : "[{\"name\":\"Lead\",\"isPublic\":false},{\"name\":\"Opportunity\",\"isPublic\":false},{\"name\":\"Campaign\",\"isPublic\":false},{\"name\":\"ContentDocument\",\"isPublic\":false},{\"name\":\"Contact\",\"isPublic\":true},{\"name\":\"Vehicle__c\",\"isPublic\":true}]"
+          "maxAutoCompleteResults" : "5"
         },
         "renderPriority" : "NEUTRAL",
         "renditionMap" : { },
@@ -66,17 +66,17 @@
         "componentAttributes" : {
           "userSettingsLabel" : "My Settings",
           "includeContactSupport" : "false",
-          "accountManagementLabel" : "Account Management",
           "showAccountManagement" : "false",
+          "accountManagementLabel" : "Account Management",
           "filterName" : "MyCases",
           "communitySetupLabel" : "Community Setup",
           "loginLabel" : "Login",
-          "contactSupportLabel" : "Contact Support",
           "logoutLabel" : "Logout",
+          "contactSupportLabel" : "Contact Support",
           "showUserSettings" : "false",
           "myAccountLabel" : "My Account",
-          "homeLabel" : "Home",
           "includeMessages" : "false",
+          "homeLabel" : "Home",
           "communityBuilderLabel" : "Community Builder",
           "viewProfileLabel" : "My Profile"
         },
@@ -93,9 +93,9 @@
       "components" : [ {
         "componentName" : "forceCommunity:globalNavigation",
         "componentAttributes" : {
-          "NavigationMenuEditorRefresh" : "",
           "hideAppLauncher" : "true",
-          "hideHomeText" : "false"
+          "hideHomeText" : "false",
+          "NavigationMenuEditorRefresh" : ""
         },
         "renderPriority" : "NEUTRAL",
         "renditionMap" : { },

@@ -20,8 +20,8 @@
       "componentAttributes" : {
         "showTopResults" : "true",
         "topicId" : "{!topicId}",
-        "term" : "{!searchString}",
         "searchTerm" : "{!searchString}",
+        "term" : "{!searchString}",
         "scopes" : "[{\"name\":\"Lead\", \"isPublic\":false},{\"name\":\"Opportunity\", \"isPublic\":false}, {\"name\":\"Campaign\", \"isPublic\":false}, {\"name\":\"ContentDocument\", \"isPublic\": false}]",
         "searchResultFiltering" : "true"
       },

@@ -22,12 +22,12 @@
       "componentName" : "salesforceIdentity:loginForm2",
       "componentAttributes" : {
         "startUrl" : "",
-        "forgotPasswordUrl" : "/ForgotPassword",
         "selfRegisterUrl" : "/SelfRegister",
+        "forgotPasswordUrl" : "/ForgotPassword",
         "forgotPasswordLabel" : "Forgot your password?",
         "selfRegisterLabel" : "Not a member?",
-        "usernameLabel" : "Username",
         "loginButtonLabel" : "Log in",
+        "usernameLabel" : "Username",
         "passwordLabel" : "Password"
       },
       "renderPriority" : "NEUTRAL",

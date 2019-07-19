@@ -2,8 +2,8 @@
   "values" : {
     "HeaderBackgroundColor" : "rgb(199, 199, 199)",
     "TextTransformStyle" : "none",
-    "BorderColor" : "#D4D4D4",
     "DetailTextColor" : "#5A5A5A",
+    "BorderColor" : "#D4D4D4",
     "NavigationMenuColor" : "rgb(30, 36, 67)",
     "HeaderFonts" : "Open Sans",
     "CardBackgroundColor" : "rgba(255, 255, 255, 0)",
@@ -19,7 +19,7 @@
     "_HeaderPlaceholderTextColor" : "rgba(85,85,85,.8)",
     "_OverlayTextColorShadow" : "#000000",
     "ActionColor" : "rgb(30, 36, 67)",
-    "CompanyLogo" : "/file-asset/electron_logo_horizontal?v=1&height=300&width=300",
+    "CompanyLogo" : "/file-asset/electron_logo_horizontal?v=1&amp;height=300&amp;width=300",
     "_LinkColorDarker" : "#135F90",
     "_ActionColorDarker" : "#0e1120",
     "_HoverColor" : "rgba(30, 36, 67, 0.05)",

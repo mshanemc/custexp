@@ -18,8 +18,8 @@
     "components" : [ {
       "componentName" : "forceCommunity:workspacesList",
       "componentAttributes" : {
-        "librariesHeaderLabel" : "Libraries",
-        "showWorkspaceImage" : "true"
+        "showWorkspaceImage" : "true",
+        "librariesHeaderLabel" : "Libraries"
       },
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
@@ -34,8 +34,8 @@
     "components" : [ {
       "componentName" : "forceChatter:recommendationsBig",
       "componentAttributes" : {
-        "recommendationTypes" : "[files]",
         "displayNumber" : "4",
+        "recommendationTypes" : "[files]",
         "title" : "Popular Now"
       },
       "renderPriority" : "NEUTRAL",

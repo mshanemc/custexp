@@ -19,13 +19,13 @@
       "componentName" : "forceCommunity:objectHome",
       "componentAttributes" : {
         "layout" : "FULL",
-        "scope" : "{!objectName}",
+        "showDisplay" : "showall",
         "showActionBar" : "true",
+        "scope" : "{!objectName}",
         "filterName" : "{!filterId}",
         "pageSize" : "25",
         "enableInlineEdit" : "true",
-        "showSearchBar" : "true",
-        "showDisplay" : "showall"
+        "showSearchBar" : "true"
       },
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },

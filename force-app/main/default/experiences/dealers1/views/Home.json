@@ -45,9 +45,9 @@
           "componentAttributes" : {
             "filter" : "",
             "openLinksInNewWindow" : "true",
-            "dashboardId" : "0FK0v00000002IpGAI",
-            "showTitle" : "true",
+            "dashboardId" : "0FK1h000000CbTOGA0",
             "showHeader" : "true",
+            "showTitle" : "true",
             "hideOnError" : "false",
             "showSharing" : "false",
             "height" : "1000"
@@ -60,7 +60,7 @@
         } ]
       }, {
         "regionName" : "tab2",
-        "regionLabel" : "News & Updates",
+        "regionLabel" : "News &amp; Updates",
         "id" : "f00aafad-ddfe-4c40-bad6-ddce2cb801e7",
         "type" : "region",
         "components" : [ {
@@ -68,11 +68,11 @@
           "componentAttributes" : {
             "hasFeedSearch" : "true",
             "canChangeSorting" : "true",
-            "defaultFilter" : "",
             "defaultSortOrderTopicsFeed" : "Relevance",
+            "defaultFilter" : "",
             "feedDesign" : "DEFAULT",
-            "type" : "Home",
             "defaultSortOrderHomeFeed" : "Relevance",
+            "type" : "Home",
             "subjectId" : "{!recordId}"
           },
           "renderPriority" : "NEUTRAL",
@@ -116,13 +116,13 @@
       "componentName" : "forceCommunity:objectHome",
       "componentAttributes" : {
         "layout" : "COMPACT",
-        "scope" : "Task",
+        "showDisplay" : "showall",
         "showActionBar" : "true",
+        "scope" : "Task",
         "filterName" : "OPEN",
         "pageSize" : "5",
         "enableInlineEdit" : "true",
-        "showSearchBar" : "true",
-        "showDisplay" : "showall"
+        "showSearchBar" : "true"
       },
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
@@ -133,13 +133,13 @@
       "componentName" : "forceCommunity:objectHome",
       "componentAttributes" : {
         "layout" : "COMPACT",
-        "scope" : "Opportunity",
+        "showDisplay" : "showall",
         "showActionBar" : "true",
+        "scope" : "Opportunity",
         "filterName" : "00B3D000001CbyXUAS",
         "pageSize" : "5",
         "enableInlineEdit" : "true",
-        "showSearchBar" : "true",
-        "showDisplay" : "showall"
+        "showSearchBar" : "true"
       },
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
