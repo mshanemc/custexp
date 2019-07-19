@@ -46,8 +46,8 @@
             "filter" : "",
             "openLinksInNewWindow" : "true",
             "dashboardId" : "0FK1h000000CbTOGA0",
-            "showHeader" : "true",
             "showTitle" : "true",
+            "showHeader" : "true",
             "hideOnError" : "false",
             "showSharing" : "false",
             "height" : "1000"
@@ -68,11 +68,11 @@
           "componentAttributes" : {
             "hasFeedSearch" : "true",
             "canChangeSorting" : "true",
-            "defaultSortOrderTopicsFeed" : "Relevance",
             "defaultFilter" : "",
+            "defaultSortOrderTopicsFeed" : "Relevance",
             "feedDesign" : "DEFAULT",
-            "defaultSortOrderHomeFeed" : "Relevance",
             "type" : "Home",
+            "defaultSortOrderHomeFeed" : "Relevance",
             "subjectId" : "{!recordId}"
           },
           "renderPriority" : "NEUTRAL",
@@ -117,8 +117,8 @@
       "componentAttributes" : {
         "layout" : "COMPACT",
         "showDisplay" : "showall",
-        "showActionBar" : "true",
         "scope" : "Task",
+        "showActionBar" : "true",
         "filterName" : "OPEN",
         "pageSize" : "5",
         "enableInlineEdit" : "true",
@@ -134,9 +134,9 @@
       "componentAttributes" : {
         "layout" : "COMPACT",
         "showDisplay" : "showall",
-        "showActionBar" : "true",
         "scope" : "Opportunity",
-        "filterName" : "00B3D000001CbyXUAS",
+        "showActionBar" : "true",
+        "filterName" : "00B1h0000014zgmEAA",
         "pageSize" : "5",
         "enableInlineEdit" : "true",
         "showSearchBar" : "true"

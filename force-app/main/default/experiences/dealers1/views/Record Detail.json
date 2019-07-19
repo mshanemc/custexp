@@ -30,8 +30,8 @@
       "componentAttributes" : {
         "recordId" : "{!recordId}",
         "relatedTabLabel" : "Related",
-        "discussionsTabLabel" : "Feed",
         "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
         "timelineTabLabel" : "Activity",
         "tab1Type" : "related",
         "tab4Type" : "none",

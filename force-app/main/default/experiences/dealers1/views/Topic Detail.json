@@ -31,11 +31,11 @@
         "hasFeedSearch" : "false",
         "showFilteringMenuGroup" : "true",
         "canChangeSorting" : "false",
-        "defaultSortOrderTopicsFeed" : "Relevance",
         "defaultFilter" : "",
+        "defaultSortOrderTopicsFeed" : "Relevance",
         "feedDesign" : "DEFAULT",
-        "defaultSortOrderHomeFeed" : "Relevance",
         "type" : "Topics",
+        "defaultSortOrderHomeFeed" : "Relevance",
         "subjectId" : "{!recordId}"
       },
       "renderPriority" : "NEUTRAL",

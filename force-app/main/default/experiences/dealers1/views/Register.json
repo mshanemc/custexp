@@ -32,12 +32,12 @@
       "componentName" : "salesforceIdentity:selfRegister2",
       "componentAttributes" : {
         "startUrl" : "",
-        "submitButtonLabel" : "Sign Up",
         "lastnameLabel" : "Last Name",
+        "submitButtonLabel" : "Sign Up",
         "includePasswordField" : "false",
         "confirmPasswordLabel" : "Confirm Password",
-        "extraFieldsFieldSet" : "",
         "regConfirmUrl" : "./CheckPasswordResetEmail",
+        "extraFieldsFieldSet" : "",
         "firstnameLabel" : "First Name",
         "emailLabel" : "Email",
         "passwordLabel" : "Create Password"

@@ -21,9 +21,9 @@
         "recordId" : "{!recordId}",
         "canvasId" : "{!canvasId}",
         "displayLocation" : "{!displayLocation}",
-        "developerName" : "{!developerName}",
+        "parameters" : "{!parameters}",
         "namespacePrefix" : "{!namespacePrefix}",
-        "parameters" : "{!parameters}"
+        "developerName" : "{!developerName}"
       },
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },

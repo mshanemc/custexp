@@ -19,10 +19,10 @@
       "componentName" : "forceCommunity:relatedList",
       "componentAttributes" : {
         "showRowNumbers" : "true",
-        "showManualRefreshButton" : "true",
         "showBreadCrumbs" : "true",
-        "customTitle" : "",
+        "showManualRefreshButton" : "true",
         "relatedListName" : "{!relationshipApiName}",
+        "customTitle" : "",
         "parentRecordId" : "{!recordId}",
         "showCustomTitle" : "false"
       },

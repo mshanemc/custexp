@@ -20,8 +20,8 @@
       "componentAttributes" : {
         "recordId" : "{!recordId}",
         "relatedTabLabel" : "Related",
-        "detailsTabLabel" : "Details",
         "feedTabLabel" : "Feed",
+        "detailsTabLabel" : "Details",
         "engagementManagersOnly" : "false",
         "engagementTabLabel" : "Engagement"
       },

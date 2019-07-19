@@ -45,8 +45,8 @@
           "componentAttributes" : {
             "layout" : "FULL",
             "showDisplay" : "showall",
-            "showActionBar" : "true",
             "scope" : "PartnerFundAllocation",
+            "showActionBar" : "true",
             "filterName" : "Recent",
             "pageSize" : "25",
             "enableInlineEdit" : "true",
@@ -68,8 +68,8 @@
           "componentAttributes" : {
             "layout" : "FULL",
             "showDisplay" : "showall",
-            "showActionBar" : "true",
             "scope" : "PartnerFundRequest",
+            "showActionBar" : "true",
             "filterName" : "Recent",
             "pageSize" : "25",
             "enableInlineEdit" : "true",
@@ -91,8 +91,8 @@
           "componentAttributes" : {
             "layout" : "FULL",
             "showDisplay" : "showall",
-            "showActionBar" : "true",
             "scope" : "PartnerFundClaim",
+            "showActionBar" : "true",
             "filterName" : "Recent",
             "pageSize" : "25",
             "enableInlineEdit" : "true",

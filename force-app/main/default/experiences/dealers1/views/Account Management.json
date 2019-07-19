@@ -34,10 +34,10 @@
           "componentName" : "forceCommunity:relatedList",
           "componentAttributes" : {
             "showRowNumbers" : "false",
-            "showManualRefreshButton" : "false",
             "showBreadCrumbs" : "false",
-            "customTitle" : "Members",
+            "showManualRefreshButton" : "false",
             "relatedListName" : "Users",
+            "customTitle" : "Members",
             "parentRecordId" : "{!CurrentUser.accountId}",
             "showCustomTitle" : "true"
           },
