@@ -46,8 +46,8 @@
             "filter" : "",
             "openLinksInNewWindow" : "true",
             "dashboardId" : "0FK1h000000CbTOGA0",
-            "showTitle" : "true",
             "showHeader" : "true",
+            "showTitle" : "true",
             "hideOnError" : "false",
             "showSharing" : "false",
             "height" : "1000"
@@ -60,7 +60,7 @@
         } ]
       }, {
         "regionName" : "tab2",
-        "regionLabel" : "News &amp; Updates",
+        "regionLabel" : "News &amp;amp; Updates",
         "id" : "f00aafad-ddfe-4c40-bad6-ddce2cb801e7",
         "type" : "region",
         "components" : [ {
@@ -68,11 +68,11 @@
           "componentAttributes" : {
             "hasFeedSearch" : "true",
             "canChangeSorting" : "true",
-            "defaultFilter" : "",
             "defaultSortOrderTopicsFeed" : "Relevance",
+            "defaultFilter" : "",
             "feedDesign" : "DEFAULT",
-            "type" : "Home",
             "defaultSortOrderHomeFeed" : "Relevance",
+            "type" : "Home",
             "subjectId" : "{!recordId}"
           },
           "renderPriority" : "NEUTRAL",
@@ -88,6 +88,17 @@
     "id" : "b98ff957-f938-4a38-b222-ec2461e6f850",
     "type" : "region",
     "components" : [ {
+      "componentName" : "c:vehiclePreview",
+      "componentAttributes" : {
+        "model" : "Flare",
+        "background" : "None"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "ebf6d6c9-9791-486e-a38e-777c1712af13",
+      "type" : "component",
+      "renditions" : [ ]
+    }, {
       "componentName" : "forceCommunity:createRecordButton",
       "componentAttributes" : {
         "label" : "Quick Create",
@@ -117,8 +128,8 @@
       "componentAttributes" : {
         "layout" : "COMPACT",
         "showDisplay" : "showall",
-        "scope" : "Task",
         "showActionBar" : "true",
+        "scope" : "Task",
         "filterName" : "OPEN",
         "pageSize" : "5",
         "enableInlineEdit" : "true",
@@ -134,9 +145,9 @@
       "componentAttributes" : {
         "layout" : "COMPACT",
         "showDisplay" : "showall",
-        "scope" : "Opportunity",
         "showActionBar" : "true",
-        "filterName" : "00B1h0000014zgmEAA",
+        "scope" : "Opportunity",
+        "filterName" : "Opportunity Pipeline",
         "pageSize" : "5",
         "enableInlineEdit" : "true",
         "showSearchBar" : "true"

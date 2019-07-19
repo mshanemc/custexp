@@ -20,8 +20,8 @@
       "componentAttributes" : {
         "layout" : "FULL",
         "showDisplay" : "showall",
-        "scope" : "{!objectName}",
         "showActionBar" : "true",
+        "scope" : "{!objectName}",
         "filterName" : "{!filterId}",
         "pageSize" : "25",
         "enableInlineEdit" : "true",
