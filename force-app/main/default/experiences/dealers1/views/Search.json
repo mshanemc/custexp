@@ -1,0 +1,57 @@
+{
+  "themeLayoutType" : "Inner",
+  "viewType" : "global-search",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "label" : "Search",
+  "id" : "b5782083-4d18-4f65-9bb8-835c80d4f1f8",
+  "type" : "view",
+  "regions" : [ {
+    "regionName" : "header",
+    "id" : "4e703f3f-c659-4d7b-84d5-7e864e502af0",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "content",
+    "id" : "21f7d506-bee3-453a-a63e-a5576123f9a2",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:search",
+      "componentAttributes" : {
+        "showTopResults" : "true",
+        "topicId" : "{!topicId}",
+        "term" : "{!searchString}",
+        "searchTerm" : "{!searchString}",
+        "scopes" : "[{\"name\":\"Lead\", \"isPublic\":false},{\"name\":\"Opportunity\", \"isPublic\":false}, {\"name\":\"Campaign\", \"isPublic\":false}, {\"name\":\"ContentDocument\", \"isPublic\": false}]",
+        "searchResultFiltering" : "true"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "5efbcaaa-28b6-4aed-ae11-b4ade165ad48",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  }, {
+    "regionName" : "footer",
+    "id" : "a99f1043-0625-4a37-b5dd-02464b323e17",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "sfdcHiddenRegion",
+    "id" : "abcb25c3-d3cd-48cb-8e18-6962c9795e7a",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:seoAssistant",
+      "componentAttributes" : {
+        "metaTags" : "",
+        "description" : "",
+        "title" : ""
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "737d8ee4-4b4a-402a-8248-26ea90043bd3",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  } ]
+}

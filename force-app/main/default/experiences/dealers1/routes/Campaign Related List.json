@@ -1,0 +1,9 @@
+{
+  "urlPrefix" : "campaign",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "routeType" : "relatedlist-701",
+  "pageAccess" : "UseParent",
+  "label" : "Campaign Related List",
+  "id" : "fc5fac47-63c8-4617-85c6-8cd7e0016509",
+  "type" : "route"
+}

@@ -1,0 +1,9 @@
+{
+  "urlPrefix" : "contact",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "routeType" : "list-003",
+  "pageAccess" : "UseParent",
+  "label" : "Contact List",
+  "id" : "5bd6d40f-9cbc-479c-b496-0328237d13ff",
+  "type" : "route"
+}

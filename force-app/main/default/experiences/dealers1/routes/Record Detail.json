@@ -1,0 +1,9 @@
+{
+  "urlPrefix" : "detail",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "routeType" : "detail",
+  "pageAccess" : "UseParent",
+  "label" : "Record Detail",
+  "id" : "7d0da515-ea22-42f2-a1f9-36ff9705a14c",
+  "type" : "route"
+}

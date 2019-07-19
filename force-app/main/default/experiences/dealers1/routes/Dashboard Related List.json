@@ -1,0 +1,9 @@
+{
+  "urlPrefix" : "dashboard",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "routeType" : "relatedlist-01Z",
+  "pageAccess" : "UseParent",
+  "label" : "Dashboard Related List",
+  "id" : "4d0cb2a6-9f07-457b-95b6-5ee4ed847d01",
+  "type" : "route"
+}

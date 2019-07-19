@@ -1,0 +1,42 @@
+{
+  "themeLayoutType" : "Inner",
+  "viewType" : "relatedlist-0Fq",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "label" : "Stream Related List",
+  "id" : "3d2a3f72-e4bc-44ec-b72d-4b37214f391f",
+  "type" : "view",
+  "regions" : [ {
+    "regionName" : "header",
+    "id" : "052eaefa-c639-494c-8cc0-142ba5059c5a",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "content",
+    "id" : "432cbb92-8d44-4310-8d79-d864818355bc",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "footer",
+    "id" : "7231394d-069a-4df1-bd9d-3b395edbb1bf",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "sfdcHiddenRegion",
+    "id" : "f381d89c-9c15-4ba5-a633-13ed89075e37",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:seoAssistant",
+      "componentAttributes" : {
+        "metaTags" : "",
+        "description" : "",
+        "title" : ""
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "5b3a3f0d-bdc5-4c29-9d6e-b9e6f11cfa44",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  } ]
+}

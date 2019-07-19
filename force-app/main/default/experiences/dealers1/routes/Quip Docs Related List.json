@@ -1,0 +1,9 @@
+{
+  "urlPrefix" : "quip",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "routeType" : "extrelated-quip",
+  "pageAccess" : "UseParent",
+  "label" : "Quip Docs Related List",
+  "id" : "e46c830c-d4fc-461b-9030-9f805740e029",
+  "type" : "route"
+}

@@ -1,0 +1,9 @@
+{
+  "urlPrefix" : "contentdocument",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "routeType" : "list-069",
+  "pageAccess" : "UseParent",
+  "label" : "File List",
+  "id" : "b2e0c399-4a7f-4164-920c-2e405ad0c384",
+  "type" : "route"
+}

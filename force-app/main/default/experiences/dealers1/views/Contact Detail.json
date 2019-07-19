@@ -1,0 +1,78 @@
+{
+  "themeLayoutType" : "Inner",
+  "viewType" : "detail-003",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "componentName" : "siteforce:sldsTwoCol48Layout",
+  "label" : "Contact Detail",
+  "id" : "401a9bb0-b8a5-4ebd-bdaf-ac43cb0378c0",
+  "type" : "view",
+  "regions" : [ {
+    "regionName" : "header",
+    "id" : "5a0662f2-6fc2-4015-8e73-8b05e5139078",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:recordHeadline",
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "b573ce7c-3674-4d86-8d6f-f7d15c8b2eae",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  }, {
+    "regionName" : "content",
+    "id" : "77df0ca7-1d35-4f2c-aa27-0203165ebd45",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:relatedRecords",
+      "componentAttributes" : {
+        "recordId" : "{!recordId}",
+        "width" : "MEDIUM"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "956c5589-3308-4fbc-a6eb-21cdff3d277b",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  }, {
+    "regionName" : "footer",
+    "id" : "024abaaf-1f64-4dca-86aa-ab2d27a22922",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "sfdcHiddenRegion",
+    "id" : "e735d5af-80a3-43d2-b5ce-697921a52e41",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:seoAssistant",
+      "componentAttributes" : {
+        "metaTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "0313a2bb-f797-4c9b-b441-741571874b9e",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  }, {
+    "regionName" : "sidebar",
+    "id" : "32d86838-98bb-4b26-bcd8-68ba217c5b5e",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:recordDetail",
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "2e465139-58ae-4a94-a23b-6fa131c9890e",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  } ]
+}

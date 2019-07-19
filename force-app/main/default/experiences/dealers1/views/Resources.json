@@ -1,0 +1,70 @@
+{
+  "themeLayoutType" : "Inner",
+  "viewType" : "files",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "label" : "Resources",
+  "id" : "4edeb7d3-e4ed-46b9-8be5-014a6eec6a61",
+  "type" : "view",
+  "regions" : [ {
+    "regionName" : "header",
+    "id" : "10ed653a-3ae3-4a72-9350-72f7d15dbde8",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "content",
+    "id" : "d4aca2ca-69bd-4bc4-bac6-8593b5a12a90",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:workspacesList",
+      "componentAttributes" : {
+        "librariesHeaderLabel" : "Libraries",
+        "showWorkspaceImage" : "true"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "fddb5f0a-e5f2-4c62-b08b-269798dfc8e2",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  }, {
+    "regionName" : "sidebar",
+    "id" : "dc4d6c69-71bb-4fe6-b0dd-ef0c08258727",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceChatter:recommendationsBig",
+      "componentAttributes" : {
+        "recommendationTypes" : "[files]",
+        "displayNumber" : "4",
+        "title" : "Popular Now"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "2c322bef-bf1a-491e-b596-60a403ef1ec3",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  }, {
+    "regionName" : "footer",
+    "id" : "2d90c497-22e5-46f5-917c-d73bad557605",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "sfdcHiddenRegion",
+    "id" : "161bc645-0037-4ec9-9fcf-bf31c83f0c1c",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:seoAssistant",
+      "componentAttributes" : {
+        "metaTags" : "",
+        "description" : "",
+        "title" : "Resources"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "75ef8346-db68-4c6b-96c2-452610167288",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  } ]
+}

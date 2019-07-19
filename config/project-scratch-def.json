@@ -2,14 +2,7 @@
   "orgName": "solutions-customer-experience",
   "adminEmail": "platformpmmdemos@gmail.com",
   "edition": "Developer",
-  "hasSampleData": "true",
-  "features": [
-    "Communities",
-    "EinsteinAssistant",
-    "SiteDotCom",
-    "Sites",
-    "DevelopmentWave"
-  ],
+  "features": ["Communities", "EinsteinAssistant", "SiteDotCom", "Sites", "DevelopmentWave"],
   "settings": {
     "orgPreferenceSettings": {
       "networksEnabled": true,

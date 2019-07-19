@@ -1,0 +1,9 @@
+{
+  "urlPrefix" : "report",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "routeType" : "list-00O",
+  "pageAccess" : "UseParent",
+  "label" : "Report List",
+  "id" : "deb1e6ee-4d8d-47b8-b9fe-da5d3f46d465",
+  "type" : "route"
+}

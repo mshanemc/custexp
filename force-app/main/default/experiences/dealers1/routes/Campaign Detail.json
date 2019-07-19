@@ -1,0 +1,9 @@
+{
+  "urlPrefix" : "campaign",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "routeType" : "detail-701",
+  "pageAccess" : "UseParent",
+  "label" : "Campaign Detail",
+  "id" : "6dff311c-63c3-498e-bc19-3bea829ba78a",
+  "type" : "route"
+}

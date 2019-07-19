@@ -1,0 +1,70 @@
+{
+  "themeLayoutType" : "Inner",
+  "viewType" : "detail-701",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "label" : "Campaign Detail",
+  "id" : "39d1c1e4-0aa5-406d-9918-4ac73c179a9f",
+  "type" : "view",
+  "regions" : [ {
+    "regionName" : "header",
+    "id" : "63e83405-690e-4a87-a34f-22834c2b100a",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "content",
+    "id" : "d399798b-c876-469f-8179-d12ab55c0fc1",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:recordHeadline",
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "2aa2ec25-c0fc-49bb-9df8-1a6e139bac6f",
+      "type" : "component",
+      "renditions" : [ ]
+    }, {
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "componentAttributes" : {
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
+        "timelineTabLabel" : "Activity",
+        "tab1Type" : "details",
+        "tab4Type" : "none",
+        "tab3Type" : "chatter",
+        "tab2Type" : "related"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "e5d35202-e7f9-4fcd-aa35-4c9d38a11454",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  }, {
+    "regionName" : "footer",
+    "id" : "7a33f727-f152-4460-afc7-88b90da7131f",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "sfdcHiddenRegion",
+    "id" : "bde43d76-0641-4ee8-8f2d-534afcd2b87d",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:seoAssistant",
+      "componentAttributes" : {
+        "metaTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "37e2b452-9b25-4dc6-8e90-de9cbaefaf28",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  } ]
+}

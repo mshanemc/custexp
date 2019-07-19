@@ -1,0 +1,90 @@
+{
+  "themeLayoutType" : "Inner",
+  "viewType" : "contactsupport",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "label" : "Contact Support",
+  "id" : "3553b11b-34c8-42f9-b22c-4b4a58efee4d",
+  "type" : "view",
+  "regions" : [ {
+    "regionName" : "header",
+    "id" : "321258de-76ec-4b1a-bb61-bd51874a696c",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "content",
+    "id" : "c9995ea4-245a-4817-b587-dc863c8d2711",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:contactSupportForm",
+      "componentAttributes" : {
+        "quickActionName" : "NewCase",
+        "callToActionUrl" : "",
+        "guestQuickActionName" : "Select or configure a global action",
+        "headerSubtitle" : "Tell us how we can help.",
+        "confirmationText" : "Your case was created.",
+        "confirmationSubtext" : "We’ll get back to you soon.",
+        "callToAction" : "false",
+        "allowAttachments" : "true",
+        "requestSummaryText" : "Case summary",
+        "callToActionText" : "",
+        "callToActionButtonText" : "",
+        "headerTitle" : "Contact Customer Support",
+        "attachmentLabel" : "Upload File"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "f1796dfa-29d8-45b3-81a5-4859115ad55b",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  }, {
+    "regionName" : "sidebar",
+    "id" : "f14c467d-2a7b-4c17-9581-f2c128a66a74",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:caseDeflection",
+      "componentAttributes" : {
+        "deflectionSubtitle" : "Find what you need here.",
+        "showArticles" : "true",
+        "redirectUrl" : "",
+        "deflectionTitle" : "Need Answers Fast?",
+        "secondQuestion" : "Stop creating your case?",
+        "measureDeflection" : "true",
+        "topicId" : "",
+        "firstQuestion" : "Did this content solve your issue?",
+        "showDiscussions" : "false",
+        "maxResults" : "6",
+        "confirmationMessageLabel" : "Got it!",
+        "askConfirmationQuestion" : "true"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "bc7e7d09-6c5d-4325-8b0e-4eb63bd1c053",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  }, {
+    "regionName" : "footer",
+    "id" : "c4353a4e-61f4-4119-962b-db3547bc19d6",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "sfdcHiddenRegion",
+    "id" : "8a08427d-6b1c-406f-b98e-35e88e63d549",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:seoAssistant",
+      "componentAttributes" : {
+        "metaTags" : "",
+        "description" : "",
+        "title" : "Contact Support"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "78c47335-0549-42e7-be42-d66f0fd56aea",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  } ]
+}

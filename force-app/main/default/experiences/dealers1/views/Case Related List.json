@@ -1,0 +1,58 @@
+{
+  "themeLayoutType" : "Inner",
+  "viewType" : "relatedlist-500",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "label" : "Case Related List",
+  "id" : "d38086ad-26a9-4426-8ad8-704a3095e899",
+  "type" : "view",
+  "regions" : [ {
+    "regionName" : "header",
+    "id" : "ce5e6f92-95d9-4e99-ba9b-4c9cde0d75e0",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "content",
+    "id" : "745797a7-cdfc-402f-92a4-1f49d6e31dc4",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:relatedList",
+      "componentAttributes" : {
+        "showRowNumbers" : "true",
+        "showBreadCrumbs" : "true",
+        "showManualRefreshButton" : "true",
+        "relatedListName" : "{!relationshipApiName}",
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "showCustomTitle" : "false"
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "bf9a9c47-ee8c-4582-a003-0c583c80e832",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  }, {
+    "regionName" : "footer",
+    "id" : "48f73d94-2bc4-45e9-a00b-3796443f77cd",
+    "type" : "region",
+    "components" : [ ]
+  }, {
+    "regionName" : "sfdcHiddenRegion",
+    "id" : "5f33a1c0-a0ce-4aae-b5be-2e85b80e1e18",
+    "type" : "region",
+    "components" : [ {
+      "componentName" : "forceCommunity:seoAssistant",
+      "componentAttributes" : {
+        "metaTags" : "",
+        "description" : "",
+        "title" : ""
+      },
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "id" : "8f481581-1392-471f-9f19-4bcc47b94294",
+      "type" : "component",
+      "renditions" : [ ]
+    } ]
+  } ]
+}

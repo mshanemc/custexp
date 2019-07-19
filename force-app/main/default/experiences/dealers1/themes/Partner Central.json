@@ -1,0 +1,118 @@
+{
+  "developerName" : "prm",
+  "layouts" : {
+    "Login" : "e85ea06d-ab2a-4d38-91dc-7dd78a82a5ed",
+    "Inner" : "4c54dcac-3698-4d42-ae36-32dff20165f1"
+  },
+  "customCSS" : "",
+  "activeBrandingSetId" : "045dc7a8-bd66-4e80-aa76-bf0f10c4fde8",
+  "label" : "Partner Central",
+  "id" : "af9df181-a4d7-4819-b9ea-9b325614f0d3",
+  "type" : "theme",
+  "views" : [ {
+    "componentName" : "salesforceIdentity:loginBody2",
+    "label" : "Login",
+    "id" : "e85ea06d-ab2a-4d38-91dc-7dd78a82a5ed",
+    "type" : "view",
+    "regions" : [ {
+      "regionName" : "header",
+      "id" : "80db8710-7978-4d3a-a89d-5fb5ec794e0f",
+      "type" : "region",
+      "components" : [ ]
+    }, {
+      "regionName" : "content",
+      "id" : "dcaee0dd-bbcb-4ff7-bbae-283c40cd0cad",
+      "type" : "region",
+      "components" : [ ]
+    }, {
+      "regionName" : "footer",
+      "id" : "c5b2f588-2c30-4107-9fcf-f57bf4d7414d",
+      "type" : "region",
+      "components" : [ ]
+    } ]
+  }, {
+    "componentName" : "siteforce:prmBody",
+    "label" : "Default",
+    "id" : "4c54dcac-3698-4d42-ae36-32dff20165f1",
+    "type" : "view",
+    "regions" : [ {
+      "regionName" : "customHeader",
+      "id" : "cf6c634c-2e06-49a9-85d7-5f1b83884600",
+      "type" : "region",
+      "components" : [ ]
+    }, {
+      "regionName" : "search",
+      "id" : "77ca1b4a-5764-4bc6-9309-f9f0115a49ad",
+      "type" : "region",
+      "components" : [ {
+        "componentName" : "forceCommunity:globalSearchInput",
+        "componentAttributes" : {
+          "searchLabel" : "Search...",
+          "maxAutoCompleteResults" : "5",
+          "searchObjects" : "[{\"name\":\"Lead\",\"isPublic\":false},{\"name\":\"Opportunity\",\"isPublic\":false},{\"name\":\"Campaign\",\"isPublic\":false},{\"name\":\"ContentDocument\",\"isPublic\":false},{\"name\":\"Contact\",\"isPublic\":true},{\"name\":\"Vehicle__c\",\"isPublic\":true}]"
+        },
+        "renderPriority" : "NEUTRAL",
+        "renditionMap" : { },
+        "id" : "81fabf04-8f5f-4449-81af-22a9c2c0a65b",
+        "type" : "component",
+        "renditions" : [ ]
+      } ]
+    }, {
+      "regionName" : "profileMenu",
+      "id" : "9c29d143-043d-4a8e-913c-62f9cc012011",
+      "type" : "region",
+      "components" : [ {
+        "componentName" : "selfService:userProfileMenu",
+        "componentAttributes" : {
+          "userSettingsLabel" : "My Settings",
+          "includeContactSupport" : "false",
+          "accountManagementLabel" : "Account Management",
+          "showAccountManagement" : "false",
+          "filterName" : "MyCases",
+          "communitySetupLabel" : "Community Setup",
+          "loginLabel" : "Login",
+          "contactSupportLabel" : "Contact Support",
+          "logoutLabel" : "Logout",
+          "showUserSettings" : "false",
+          "myAccountLabel" : "My Account",
+          "homeLabel" : "Home",
+          "includeMessages" : "false",
+          "communityBuilderLabel" : "Community Builder",
+          "viewProfileLabel" : "My Profile"
+        },
+        "renderPriority" : "NEUTRAL",
+        "renditionMap" : { },
+        "id" : "19747038-13d7-4191-951f-05cb18acff6d",
+        "type" : "component",
+        "renditions" : [ ]
+      } ]
+    }, {
+      "regionName" : "navBar",
+      "id" : "6b9dadb1-b851-4eb3-ac0a-6391e4f91d75",
+      "type" : "region",
+      "components" : [ {
+        "componentName" : "forceCommunity:globalNavigation",
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "",
+          "hideAppLauncher" : "true",
+          "hideHomeText" : "false"
+        },
+        "renderPriority" : "NEUTRAL",
+        "renditionMap" : { },
+        "id" : "a3514408-26f7-4825-bb6e-a598b81a65ec",
+        "type" : "component",
+        "renditions" : [ ]
+      } ]
+    }, {
+      "regionName" : "customRegion",
+      "id" : "62f8f6e7-0760-4661-afd4-6c4660ca0f59",
+      "type" : "region",
+      "components" : [ ]
+    }, {
+      "regionName" : "footer",
+      "id" : "4b565ada-9ea2-4075-a047-325c2380c0ce",
+      "type" : "region",
+      "components" : [ ]
+    } ]
+  } ]
+}

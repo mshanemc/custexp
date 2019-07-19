@@ -14,5 +14,6 @@ package.xml
 # upstream profiles
 *Profile.profile
 AppSwitcher.appMenu
+SiteDotCom
 *.wapp*
 *.wds*

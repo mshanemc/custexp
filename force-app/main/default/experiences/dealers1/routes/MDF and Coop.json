@@ -1,0 +1,9 @@
+{
+  "urlPrefix" : "mdf",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "routeType" : "mdf",
+  "pageAccess" : "UseParent",
+  "label" : "MDF and Coop",
+  "id" : "05ca21fe-8775-4d0d-918e-b26ea0271f5f",
+  "type" : "route"
+}

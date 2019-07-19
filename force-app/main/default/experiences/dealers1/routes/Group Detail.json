@@ -1,0 +1,9 @@
+{
+  "urlPrefix" : "group",
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "routeType" : "detail-0F9",
+  "pageAccess" : "UseParent",
+  "label" : "Group Detail",
+  "id" : "45fd2d87-459a-4a35-bcdf-42ff69ff8c0c",
+  "type" : "route"
+}
