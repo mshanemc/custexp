@@ -5,7 +5,7 @@
     <label>ExternalIdentity</label>
     <oauthConfig>
         <callbackUrl>http://localhost:3030/token</callbackUrl>
-        <consumerKey>solution2x1568903937834</consumerKey>
+        <consumerKey>solution2x1568911045965</consumerKey>
         <consumerSecret>12345678abcdefg12345678abcdefg12345678</consumerSecret>
         <scopes>Basic</scopes>
         <scopes>Api</scopes>
