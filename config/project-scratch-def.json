@@ -2,14 +2,8 @@
   "orgName": "solutions-customer-experience",
   "adminEmail": "platformpmmdemos@gmail.com",
   "edition": "Developer",
-  "hasSampleData": "true",
-  "features": [
-    "Communities",
-    "EinsteinAssistant",
-    "SiteDotCom",
-    "Sites",
-    "DevelopmentWave"
-  ],
+  "hasSampleData": true,
+  "features": ["Communities", "EinsteinAssistant", "SiteDotCom", "Sites", "DevelopmentWave"],
   "settings": {
     "orgPreferenceSettings": {
       "networksEnabled": true,
@@ -17,6 +11,9 @@
       "pathAssistantsEnabled": true,
       "s1EncryptedStoragePref2": false,
       "selfSetPasswordInApi": true
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
     }
   }
 }
