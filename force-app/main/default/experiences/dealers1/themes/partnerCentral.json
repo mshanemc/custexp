@@ -1,0 +1,109 @@
+{
+  "activeBrandingSetId" : "045dc7a8-bd66-4e80-aa76-bf0f10c4fde8",
+  "customCSS" : "",
+  "developerName" : "prm",
+  "id" : "af9df181-a4d7-4819-b9ea-9b325614f0d3",
+  "label" : "Partner Central",
+  "layouts" : {
+    "Inner" : "4c54dcac-3698-4d42-ae36-32dff20165f1",
+    "Login" : "e85ea06d-ab2a-4d38-91dc-7dd78a82a5ed"
+  },
+  "type" : "theme",
+  "views" : [ {
+    "componentName" : "salesforceIdentity:loginBody2",
+    "id" : "e85ea06d-ab2a-4d38-91dc-7dd78a82a5ed",
+    "label" : "Login",
+    "regions" : [ {
+      "id" : "80db8710-7978-4d3a-a89d-5fb5ec794e0f",
+      "regionName" : "header",
+      "type" : "region"
+    }, {
+      "id" : "dcaee0dd-bbcb-4ff7-bbae-283c40cd0cad",
+      "regionName" : "content",
+      "type" : "region"
+    }, {
+      "id" : "c5b2f588-2c30-4107-9fcf-f57bf4d7414d",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  }, {
+    "componentName" : "siteforce:prmBody",
+    "id" : "4c54dcac-3698-4d42-ae36-32dff20165f1",
+    "label" : "Default",
+    "regions" : [ {
+      "id" : "cf6c634c-2e06-49a9-85d7-5f1b83884600",
+      "regionName" : "customHeader",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "maxAutoCompleteResults" : "5",
+          "searchLabel" : "Search...",
+          "searchObjects" : "[{\"name\":\"Lead\",\"isPublic\":false},{\"name\":\"Opportunity\",\"isPublic\":false},{\"name\":\"Campaign\",\"isPublic\":false},{\"name\":\"ContentDocument\",\"isPublic\":false},{\"name\":\"Contact\",\"isPublic\":true},{\"name\":\"Vehicle__c\",\"isPublic\":true}]"
+        },
+        "componentName" : "forceCommunity:globalSearchInput",
+        "id" : "81fabf04-8f5f-4449-81af-22a9c2c0a65b",
+        "renderPriority" : "NEUTRAL",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "77ca1b4a-5764-4bc6-9309-f9f0115a49ad",
+      "regionName" : "search",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "accountManagementLabel" : "Account Management",
+          "communityBuilderLabel" : "Community Builder",
+          "communitySetupLabel" : "Community Setup",
+          "contactSupportLabel" : "Contact Support",
+          "filterName" : "MyCases",
+          "homeLabel" : "Home",
+          "includeContactSupport" : "false",
+          "includeMessages" : "false",
+          "loginLabel" : "Login",
+          "logoutLabel" : "Logout",
+          "myAccountLabel" : "My Account",
+          "showAccountManagement" : "false",
+          "showUserSettings" : "false",
+          "userSettingsLabel" : "My Settings",
+          "viewProfileLabel" : "My Profile"
+        },
+        "componentName" : "selfService:userProfileMenu",
+        "id" : "19747038-13d7-4191-951f-05cb18acff6d",
+        "renderPriority" : "NEUTRAL",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "9c29d143-043d-4a8e-913c-62f9cc012011",
+      "regionName" : "profileMenu",
+      "type" : "region"
+    }, {
+      "components" : [ {
+        "componentAttributes" : {
+          "NavigationMenuEditorRefresh" : "",
+          "hideAppLauncher" : "true",
+          "hideHomeText" : "false"
+        },
+        "componentName" : "forceCommunity:globalNavigation",
+        "id" : "a3514408-26f7-4825-bb6e-a598b81a65ec",
+        "renderPriority" : "NEUTRAL",
+        "renditionMap" : { },
+        "type" : "component"
+      } ],
+      "id" : "6b9dadb1-b851-4eb3-ac0a-6391e4f91d75",
+      "regionName" : "navBar",
+      "type" : "region"
+    }, {
+      "id" : "62f8f6e7-0760-4661-afd4-6c4660ca0f59",
+      "regionName" : "customRegion",
+      "type" : "region"
+    }, {
+      "id" : "4b565ada-9ea2-4075-a047-325c2380c0ce",
+      "regionName" : "footer",
+      "type" : "region"
+    } ],
+    "type" : "view"
+  } ]
+}

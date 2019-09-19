@@ -1,0 +1,91 @@
+{
+  "appPageId" : "e7088ad2-0b91-4f6b-a9e2-c3e0f0783a9a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "b04ee607-9c7f-4401-ac9d-f9bfa99bf220",
+  "label" : "Campaign List",
+  "regions" : [ {
+    "id" : "994d5a5b-18a3-48e6-a085-4402da40d0cb",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : "{\"UUID\":\"0b7f8194-b672-45da-aa84-f837c22ceb72\",\"activeTab\":\"tab1\",\"useOverflowMenu\":false,\"tabs\":[{\"UUID\":\"fb227757-8902-4d3c-ae4c-73b1e107260c\",\"tabName\":\"Campaign Marketplace\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":true,\"seedComponents\":[{\"fqn\":\"forceCommunity:richTextInline\",\"attributes\":{\"richTextValue\":\"                                  <p><br/></p>                                <p style=&quot;text-align:left;&quot;>                                     Use these campaigns to generate leads and grow your business                                 </p>                       \"}},{\"fqn\":\"forceCommunity:campaignTileList\",\"attributes\":{}}]},{\"UUID\":\"95671ce8-a9c9-461c-889c-8edba8d7f39c\",\"tabName\":\"All Campaigns\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":true,\"seedComponents\":[{\"fqn\":\"forceCommunity:objectHome\",\"attributes\":{\"filterName\":\"Recent\",\"scope\":\"Campaign\"}}]}]}"
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "0b7f8194-b672-45da-aa84-f837c22ceb72",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "                                  <p><br/></p>                                <p style=&quot;text-align:left;&quot;>                                     Use these campaigns to generate leads and grow your business                                 </p>                       "
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "598fa1b6-1659-4d0f-a836-d61f8b839f24",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "bodyField" : "Description",
+            "categoryField" : "Type",
+            "dataFieldsConfig" : "",
+            "highlight" : "__",
+            "highlightColor" : "#007DB8",
+            "listLabel" : "",
+            "listViewName" : "AllActiveCampaigns",
+            "showImage" : "true",
+            "sortBy" : "Name",
+            "sortOrder" : "Ascending",
+            "titleField" : "Name"
+          },
+          "componentName" : "forceCommunity:campaignTileList",
+          "id" : "54f29764-9854-46f6-ba4a-6634c5063265",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "fb227757-8902-4d3c-ae4c-73b1e107260c",
+        "regionLabel" : "Campaign Marketplace",
+        "regionName" : "tab1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "enableInlineEdit" : "true",
+            "filterName" : "Recent",
+            "layout" : "FULL",
+            "pageSize" : "25",
+            "scope" : "Campaign",
+            "showActionBar" : "true",
+            "showDisplay" : "showall",
+            "showSearchBar" : "true"
+          },
+          "componentName" : "forceCommunity:objectHome",
+          "id" : "bcc73eb9-a683-41cf-a454-ee986f177a97",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "95671ce8-a9c9-461c-889c-8edba8d7f39c",
+        "regionLabel" : "All Campaigns",
+        "regionName" : "tab2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b5981dba-38ac-4ef1-8ad0-5d44ef0b64bf",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "e80922bd-6f80-4763-a8a7-c878ef43585e",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-701"
+}
