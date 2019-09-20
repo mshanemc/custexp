@@ -10,17 +10,22 @@ sfdx shane:analytics:dataset:upload -f data/ea/csat.csv -m data/ea/csat.json -n 
 sfdx shane:github:package:install -g mshanemc -r electron-base
 sfdx shane:github:package:install -g mshanemc -r community-boilerplate
 sfdx force:user:permset:assign -n electron
+
 sfdx force:source:push
-# contentassets throw error when pushed at the same time as the community they're part of.
 sfdx force:user:permset:assign -n customerExpPerms
+sfdx shane:communities:json:modify -f communities/main/default/experiences/dealers1/views/home.json -i fa69a1ff-6738-4c1e-884a-e321fdbaba1c -p dashboardId --wavetype dashboards --wavename Dealer_Dashboard --write
+
+sfdx force:source:deploy -p communities
 sfdx shane:analytics:community:enable
+sfdx shane:communities:publish -n dealers
+
 # sfdx shane:communities:activate -n dealers
 # sfdx shane:communities:activate -n externalid
-# sfdx shane:communities:publish -n dealers
 # sfdx shane:communities:publish -n externalid
 sfdx shane:analytics:app:share -n SharedApp --allprm --allcsp -c
 # sfdx shane:theme:activate -n Electron
 sfdx force:org:open
+# contentassets throw error when pushed at the same time as the community they're part of.
 # sfdx force:mdapi:deploy -d unpackagedMdapi/ -w 20 
 # sfdx force:apex:execute -f scripts/sampleWipe.cls
 # sfdx force:apex:execute -f scripts/roleAssign.cls
