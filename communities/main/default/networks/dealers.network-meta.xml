@@ -61,7 +61,7 @@
                     <type>SalesforceObject</type>
                 </navigationMenuItem>
                 <navigationMenuItem>
-                    <label>MDF &amp; Coop</label>
+                    <label>MDF and Coop</label>
                     <position>1</position>
                     <publiclyAvailable>false</publiclyAvailable>
                     <target>/mdf</target>
