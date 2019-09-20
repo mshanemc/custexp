@@ -7,7 +7,7 @@
     "ActionColor": "rgb(30, 36, 67)",
     "BorderColor": "#D4D4D4",
     "CardBackgroundColor": "rgba(255, 255, 255, 0)",
-    "CompanyLogo": "/file-asset/electron_logo_horizontal?v=1&amp;height=300&amp;width=300",
+    "CompanyLogo": "/file-asset/electron_logo_horizontal?v=1height=300&width=300",
     "DetailTextColor": "#5A5A5A",
     "ErrorFontColor": "#ff9e9e",
     "HeaderBackgroundColor": "rgb(199, 199, 199)",
