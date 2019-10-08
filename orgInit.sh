@@ -22,7 +22,7 @@ sfdx force:org:open
 # sfdx force:mdapi:deploy -d unpackagedMdapi/ -w 20 
 sfdx force:apex:execute -f scripts/sampleWipe.cls
 # sfdx force:apex:execute -f scripts/roleAssign.cls
-# sfdx force:apex:execute -f scripts/DealerSetup.cls
+sfdx force:apex:execute -f scripts/DealerSetup.cls
 # sfdx force:apex:execute -f scripts/dealerPerms.cls
 
 sfdx force:data:tree:import -p data/main/masterPlan.json 
