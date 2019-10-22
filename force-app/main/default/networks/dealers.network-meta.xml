@@ -83,6 +83,7 @@
         <profile>admin</profile>
         <profile>partner community login user</profile>
         <profile>partner community user</profile>
+        <profile>partnercustom</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>

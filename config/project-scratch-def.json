@@ -2,21 +2,25 @@
   "orgName": "solutions-customer-experience",
   "adminEmail": "platformpmmdemos@gmail.com",
   "edition": "Developer",
-  "hasSampleData": "true",
-  "features": [
-    "Communities",
-    "EinsteinAssistant",
-    "SiteDotCom",
-    "Sites",
-    "DevelopmentWave"
-  ],
+  "hasSampleData": true,
+  "features": ["Communities", "EinsteinAssistant", "SiteDotCom", "Sites", "DevelopmentWave"],
   "settings": {
-    "orgPreferenceSettings": {
-      "networksEnabled": true,
-      "s1DesktopEnabled": true,
-      "pathAssistantsEnabled": true,
-      "s1EncryptedStoragePref2": false,
-      "selfSetPasswordInApi": true
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "pathAssistantSettings": {
+      "pathAssistantEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "securitySettings": {
+      "passwordPolicies": {
+        "enableSetPasswordInApi": true
+      }
     }
   }
 }

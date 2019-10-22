@@ -43,7 +43,7 @@ tds.add(td2);
 insert tds;
 
 
-Id partnerProfileId = [select id from profile where name='Partner Community User'].id;
+Id partnerProfileId = [select id from profile where name='PartnerCustom'].id;
 
 // create the user
 User user = new User(alias = 'test123', email=con.email,

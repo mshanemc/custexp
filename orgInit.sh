@@ -1,9 +1,9 @@
 sfdx force:org:create -f config/project-scratch-def.json -d 30 -s
 sfdx shane:connectedapp:uniquify -a identity/main/default/connectedApps/ExternalIdentity.connectedApp-meta.xml -p solution2
 
-sfdx shane:analytics:dataset:upload -f data/ea/deliveries.csv -m data/ea/deliveries.json -n deliveries -a SharedApp
-sfdx shane:analytics:dataset:upload -f data/ea/testdrives.csv -m data/ea/testdrives.json -n testdrives -a SharedApp
-sfdx shane:analytics:dataset:upload -f data/ea/csat.csv -m data/ea/csat.json -n csat -a SharedApp
+sfdx shane:analytics:dataset:upload -f data/ea/deliveries.csv -m data/ea/deliveries.json -n deliveries -a SharedApp --async
+sfdx shane:analytics:dataset:upload -f data/ea/testdrives.csv -m data/ea/testdrives.json -n testdrives -a SharedApp --async
+sfdx shane:analytics:dataset:upload -f data/ea/csat.csv -m data/ea/csat.json -n csat -a SharedApp --async
 
 sfdx shane:github:package:install -g mshanemc -r electron-theme
 sfdx shane:github:package:install -g mshanemc -r electron-base
