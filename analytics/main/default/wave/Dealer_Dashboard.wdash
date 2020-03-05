@@ -17,7 +17,9 @@
               "name": "chart_1",
               "row": 5,
               "rowspan": 5,
-              "widgetStyle": { "borderEdges": [] }
+              "widgetStyle": {
+                "borderEdges": []
+              }
             },
             {
               "colspan": 6,
@@ -25,7 +27,9 @@
               "name": "chart_2",
               "row": 5,
               "rowspan": 5,
-              "widgetStyle": { "borderEdges": [] }
+              "widgetStyle": {
+                "borderEdges": []
+              }
             },
             {
               "colspan": 6,
@@ -33,7 +37,9 @@
               "name": "chart_3",
               "row": 0,
               "rowspan": 5,
-              "widgetStyle": { "borderEdges": [] }
+              "widgetStyle": {
+                "borderEdges": []
+              }
             },
             {
               "colspan": 3,
@@ -41,7 +47,9 @@
               "name": "chart_4",
               "row": 0,
               "rowspan": 5,
-              "widgetStyle": { "borderEdges": [] }
+              "widgetStyle": {
+                "borderEdges": []
+              }
             },
             {
               "colspan": 3,
@@ -71,21 +79,24 @@
         "fit": "original",
         "gutterColor": "#C5D3E0"
       },
-      "version": 1.0
+      "version": 1
     }
   ],
   "layouts": [],
   "steps": {
     "date_Week_1": {
       "broadcastFacet": true,
-      "datasets": [{ "name": "csat" }],
+      "datasets": [
+        {
+          "name": "csat"
+        }
+      ],
       "isGlobal": false,
       "label": "date_Week_1",
       "query": {
         "query": "{\"measures\":[[\"avg\",\"CSAT_Dealer\"]]}",
-        "version": -1.0
+        "version": -1
       },
-      "receiveFacet": true,
       "selectMode": "single",
       "type": "aggregateflex",
       "useGlobal": true,
@@ -114,14 +125,20 @@
           "trellis": {
             "flipLabels": false,
             "showGridLines": true,
-            "size": [50, 50],
+            "size": [
+              50,
+              50
+            ],
             "enable": false,
             "type": "x",
             "chartsPerLine": 4
           },
           "icons": {
             "useIcons": false,
-            "iconProps": { "fit": "cover", "column": "" }
+            "iconProps": {
+              "fit": "cover",
+              "column": ""
+            }
           },
           "inner": 80,
           "colors": {
@@ -132,7 +149,12 @@
             "highColor1": "#7BDE4E",
             "highColor2": "#169913"
           },
-          "columnMap": { "trellis": [], "plots": ["avg_CSAT_Dealer"] },
+          "columnMap": {
+            "trellis": [],
+            "plots": [
+              "avg_CSAT_Dealer"
+            ]
+          },
           "high": 66,
           "showActionMenu": true,
           "min": 0,
@@ -145,13 +167,16 @@
     },
     "Model_1": {
       "broadcastFacet": true,
-      "datasets": [{ "name": "deliveries" }],
+      "datasets": [
+        {
+          "name": "deliveries"
+        }
+      ],
       "isGlobal": false,
       "query": {
         "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Model\"]}",
-        "version": -1.0
+        "version": -1
       },
-      "receiveFacet": true,
       "selectMode": "single",
       "type": "aggregateflex",
       "useGlobal": true,
@@ -160,11 +185,23 @@
           "autoFitMode": "keepLabels",
           "showValues": true,
           "bins": {
-            "breakpoints": { "high": 100, "low": 0 },
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
             "bands": {
-              "high": { "color": "#008000", "label": "" },
-              "low": { "color": "#B22222", "label": "" },
-              "medium": { "color": "#ffa500", "label": "" }
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
             }
           },
           "legend": {
@@ -198,15 +235,22 @@
           "trellis": {
             "flipLabels": false,
             "showGridLines": true,
-            "size": [100, 100],
+            "size": [
+              100,
+              100
+            ],
             "enable": false,
             "type": "x",
             "chartsPerLine": 4
           },
           "columnMap": {
             "trellis": [],
-            "dimensionAxis": ["Model"],
-            "plots": ["count"]
+            "dimensionAxis": [
+              "Model"
+            ],
+            "plots": [
+              "count"
+            ]
           },
           "showActionMenu": true,
           "measureAxis2": {
@@ -214,14 +258,18 @@
             "showTitle": true,
             "showAxis": true,
             "title": "",
-            "customDomain": { "showDomain": false }
+            "customDomain": {
+              "showDomain": false
+            }
           },
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": true,
             "showAxis": true,
             "title": "",
-            "customDomain": { "showDomain": false }
+            "customDomain": {
+              "showDomain": false
+            }
           },
           "theme": "wave",
           "dimensionAxis": {
@@ -231,7 +279,11 @@
             "title": "",
             "icons": {
               "useIcons": false,
-              "iconProps": { "fit": "cover", "column": "", "type": "round" }
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
             }
           },
           "applyConditionalFormatting": true
@@ -241,13 +293,16 @@
     },
     "Date_Day_Model_1": {
       "broadcastFacet": true,
-      "datasets": [{ "name": "testdrives" }],
+      "datasets": [
+        {
+          "name": "testdrives"
+        }
+      ],
       "isGlobal": false,
       "query": {
         "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Date_Day\",\"Model\"]}",
-        "version": -1.0
+        "version": -1
       },
-      "receiveFacet": true,
       "selectMode": "single",
       "type": "aggregateflex",
       "useGlobal": true,
@@ -286,16 +341,25 @@
           "trellis": {
             "flipLabels": false,
             "showGridLines": true,
-            "size": [100, 100],
+            "size": [
+              100,
+              100
+            ],
             "enable": false,
             "type": "x",
             "chartsPerLine": 4
           },
           "columnMap": {
-            "split": ["Model"],
+            "split": [
+              "Model"
+            ],
             "trellis": [],
-            "dimensionAxis": ["Date_Day"],
-            "plots": ["count"]
+            "dimensionAxis": [
+              "Date_Day"
+            ],
+            "plots": [
+              "count"
+            ]
           },
           "showActionMenu": true,
           "measureAxis2": {
@@ -303,14 +367,18 @@
             "showTitle": true,
             "showAxis": true,
             "title": "",
-            "customDomain": { "showDomain": false }
+            "customDomain": {
+              "showDomain": false
+            }
           },
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": true,
             "showAxis": true,
             "title": "",
-            "customDomain": { "showDomain": false }
+            "customDomain": {
+              "showDomain": false
+            }
           },
           "normalize": false,
           "theme": "wave",
@@ -321,7 +389,11 @@
             "title": "",
             "icons": {
               "useIcons": false,
-              "iconProps": { "fit": "cover", "column": "", "type": "round" }
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
             }
           },
           "applyConditionalFormatting": true
@@ -331,13 +403,16 @@
     },
     "Date_Week_Model_1": {
       "broadcastFacet": true,
-      "datasets": [{ "name": "deliveries" }],
+      "datasets": [
+        {
+          "name": "deliveries"
+        }
+      ],
       "isGlobal": false,
       "query": {
         "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Date_Week\",\"Model\"]}",
-        "version": -1.0
+        "version": -1
       },
-      "receiveFacet": true,
       "selectMode": "single",
       "type": "aggregateflex",
       "useGlobal": true,
@@ -376,16 +451,25 @@
           "trellis": {
             "flipLabels": false,
             "showGridLines": true,
-            "size": [100, 100],
+            "size": [
+              100,
+              100
+            ],
             "enable": false,
             "type": "x",
             "chartsPerLine": 4
           },
           "columnMap": {
-            "split": ["Model"],
+            "split": [
+              "Model"
+            ],
             "trellis": [],
-            "dimensionAxis": ["Date_Week"],
-            "plots": ["count"]
+            "dimensionAxis": [
+              "Date_Week"
+            ],
+            "plots": [
+              "count"
+            ]
           },
           "showActionMenu": true,
           "measureAxis2": {
@@ -393,14 +477,18 @@
             "showTitle": true,
             "showAxis": true,
             "title": "",
-            "customDomain": { "showDomain": false }
+            "customDomain": {
+              "showDomain": false
+            }
           },
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": true,
             "showAxis": true,
             "title": "",
-            "customDomain": { "showDomain": false }
+            "customDomain": {
+              "showDomain": false
+            }
           },
           "normalize": false,
           "theme": "wave",
@@ -411,7 +499,11 @@
             "title": "",
             "icons": {
               "useIcons": false,
-              "iconProps": { "fit": "cover", "column": "", "type": "round" }
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
             }
           },
           "applyConditionalFormatting": true
@@ -421,14 +513,17 @@
     },
     "Clone_of_date_Week_1_1": {
       "broadcastFacet": true,
-      "datasets": [{ "name": "csat" }],
+      "datasets": [
+        {
+          "name": "csat"
+        }
+      ],
       "isGlobal": false,
       "label": "CSAT (Electron)",
       "query": {
         "query": "{\"measures\":[[\"avg\",\"CSAT_Electron\"]]}",
-        "version": -1.0
+        "version": -1
       },
-      "receiveFacet": true,
       "selectMode": "single",
       "type": "aggregateflex",
       "useGlobal": true,
@@ -449,20 +544,37 @@
           "trellis": {
             "flipLabels": false,
             "showGridLines": true,
-            "size": [50, 50],
+            "size": [
+              50,
+              50
+            ],
             "enable": false,
             "type": "x",
             "chartsPerLine": 4
           },
           "bands": {
-            "high": { "color": "#008000", "label": "High" },
-            "low": { "color": "#B22222", "label": "Low" },
-            "medium": { "color": "#ffa500", "label": "Medium" }
+            "high": {
+              "color": "#008000",
+              "label": "High"
+            },
+            "low": {
+              "color": "#B22222",
+              "label": "Low"
+            },
+            "medium": {
+              "color": "#ffa500",
+              "label": "Medium"
+            }
           },
           "showRange": true,
           "showLabel": true,
           "high": 66,
-          "columnMap": { "trellis": [], "plots": ["avg_CSAT_Electron"] },
+          "columnMap": {
+            "trellis": [],
+            "plots": [
+              "avg_CSAT_Electron"
+            ]
+          },
           "showValue": true,
           "showActionMenu": true,
           "min": 0,
@@ -506,20 +618,37 @@
         "trellis": {
           "flipLabels": false,
           "showGridLines": true,
-          "size": [50, 50],
+          "size": [
+            50,
+            50
+          ],
           "enable": false,
           "type": "x",
           "chartsPerLine": 4
         },
         "bands": {
-          "high": { "color": "#008000", "label": "High" },
-          "low": { "color": "#B22222", "label": "Low" },
-          "medium": { "color": "#ffa500", "label": "Medium" }
+          "high": {
+            "color": "#008000",
+            "label": "High"
+          },
+          "low": {
+            "color": "#B22222",
+            "label": "Low"
+          },
+          "medium": {
+            "color": "#ffa500",
+            "label": "Medium"
+          }
         },
         "showRange": true,
         "showLabel": true,
         "high": 66,
-        "columnMap": { "trellis": [], "plots": ["avg_CSAT_Electron"] },
+        "columnMap": {
+          "trellis": [],
+          "plots": [
+            "avg_CSAT_Electron"
+          ]
+        },
         "showValue": true,
         "showActionMenu": true,
         "min": 0,
@@ -566,16 +695,25 @@
         "trellis": {
           "flipLabels": false,
           "showGridLines": true,
-          "size": [100, 100],
+          "size": [
+            100,
+            100
+          ],
           "enable": false,
           "type": "x",
           "chartsPerLine": 4
         },
         "columnMap": {
-          "split": ["Model"],
+          "split": [
+            "Model"
+          ],
           "trellis": [],
-          "dimensionAxis": ["Date_Day"],
-          "plots": ["count"]
+          "dimensionAxis": [
+            "Date_Day"
+          ],
+          "plots": [
+            "count"
+          ]
         },
         "showActionMenu": true,
         "measureAxis2": {
@@ -583,14 +721,18 @@
           "showTitle": true,
           "showAxis": true,
           "title": "",
-          "customDomain": { "showDomain": false }
+          "customDomain": {
+            "showDomain": false
+          }
         },
         "measureAxis1": {
           "sqrtScale": false,
           "showTitle": true,
           "showAxis": true,
           "title": "Test Drives",
-          "customDomain": { "showDomain": false }
+          "customDomain": {
+            "showDomain": false
+          }
         },
         "normalize": false,
         "theme": "light",
@@ -602,7 +744,11 @@
           "title": "",
           "icons": {
             "useIcons": false,
-            "iconProps": { "fit": "cover", "column": "", "type": "round" }
+            "iconProps": {
+              "fit": "cover",
+              "column": "",
+              "type": "round"
+            }
           }
         },
         "applyConditionalFormatting": true
@@ -645,16 +791,25 @@
         "trellis": {
           "flipLabels": false,
           "showGridLines": true,
-          "size": [100, 100],
+          "size": [
+            100,
+            100
+          ],
           "enable": false,
           "type": "x",
           "chartsPerLine": 4
         },
         "columnMap": {
-          "split": ["Model"],
+          "split": [
+            "Model"
+          ],
           "trellis": [],
-          "dimensionAxis": ["Date_Week"],
-          "plots": ["count"]
+          "dimensionAxis": [
+            "Date_Week"
+          ],
+          "plots": [
+            "count"
+          ]
         },
         "showActionMenu": true,
         "measureAxis2": {
@@ -662,14 +817,18 @@
           "showTitle": true,
           "showAxis": true,
           "title": "",
-          "customDomain": { "showDomain": false }
+          "customDomain": {
+            "showDomain": false
+          }
         },
         "measureAxis1": {
           "sqrtScale": false,
           "showTitle": true,
           "showAxis": true,
           "title": "Cars Delivered",
-          "customDomain": { "showDomain": false }
+          "customDomain": {
+            "showDomain": false
+          }
         },
         "normalize": false,
         "theme": "light",
@@ -681,7 +840,11 @@
           "title": "",
           "icons": {
             "useIcons": false,
-            "iconProps": { "fit": "cover", "column": "", "type": "round" }
+            "iconProps": {
+              "fit": "cover",
+              "column": "",
+              "type": "round"
+            }
           }
         },
         "applyConditionalFormatting": true
@@ -711,19 +874,36 @@
         "trellis": {
           "flipLabels": false,
           "showGridLines": true,
-          "size": [50, 50],
+          "size": [
+            50,
+            50
+          ],
           "enable": false,
           "type": "x",
           "chartsPerLine": 4
         },
         "bands": {
-          "high": { "color": "#008000", "label": "High" },
-          "low": { "color": "#B22222", "label": "Low" },
-          "medium": { "color": "#ffa500", "label": "Medium" }
+          "high": {
+            "color": "#008000",
+            "label": "High"
+          },
+          "low": {
+            "color": "#B22222",
+            "label": "Low"
+          },
+          "medium": {
+            "color": "#ffa500",
+            "label": "Medium"
+          }
         },
         "showRange": true,
         "showLabel": true,
-        "columnMap": { "trellis": [], "plots": ["avg_CSAT_Dealer"] },
+        "columnMap": {
+          "trellis": [],
+          "plots": [
+            "avg_CSAT_Dealer"
+          ]
+        },
         "high": 66,
         "showValue": true,
         "showActionMenu": true,
@@ -740,11 +920,23 @@
         "autoFitMode": "keepLabels",
         "showValues": true,
         "bins": {
-          "breakpoints": { "high": 100, "low": 0 },
+          "breakpoints": {
+            "high": 100,
+            "low": 0
+          },
           "bands": {
-            "high": { "color": "#008000", "label": "" },
-            "low": { "color": "#B22222", "label": "" },
-            "medium": { "color": "#ffa500", "label": "" }
+            "high": {
+              "color": "#008000",
+              "label": ""
+            },
+            "low": {
+              "color": "#B22222",
+              "label": ""
+            },
+            "medium": {
+              "color": "#ffa500",
+              "label": ""
+            }
           }
         },
         "legend": {
@@ -779,15 +971,22 @@
         "trellis": {
           "flipLabels": false,
           "showGridLines": true,
-          "size": [100, 100],
+          "size": [
+            100,
+            100
+          ],
           "enable": false,
           "type": "x",
           "chartsPerLine": 4
         },
         "columnMap": {
           "trellis": [],
-          "dimensionAxis": ["Model"],
-          "plots": ["count"]
+          "dimensionAxis": [
+            "Model"
+          ],
+          "plots": [
+            "count"
+          ]
         },
         "showActionMenu": true,
         "measureAxis2": {
@@ -795,14 +994,18 @@
           "showTitle": true,
           "showAxis": true,
           "title": "",
-          "customDomain": { "showDomain": false }
+          "customDomain": {
+            "showDomain": false
+          }
         },
         "measureAxis1": {
           "sqrtScale": false,
           "showTitle": true,
           "showAxis": true,
           "title": "",
-          "customDomain": { "showDomain": false }
+          "customDomain": {
+            "showDomain": false
+          }
         },
         "theme": "wave",
         "step": "Model_1",
@@ -813,7 +1016,11 @@
           "title": "",
           "icons": {
             "useIcons": false,
-            "iconProps": { "fit": "cover", "column": "", "type": "round" }
+            "iconProps": {
+              "fit": "cover",
+              "column": "",
+              "type": "round"
+            }
           }
         },
         "applyConditionalFormatting": true
