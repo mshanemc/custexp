@@ -12,7 +12,7 @@ sfdx force:user:permset:assign -n electron
 sfdx force:source:push
 # contentassets throw error when pushed at the same time as the community they're part of.
 sfdx force:user:permset:assign -n customerExpPerms
-sfdx shane:analytics:community:enable
+# sfdx shane:analytics:community:enable
 sfdx shane:communities:activate -n dealers
 sfdx shane:communities:activate -n externalid
 sfdx shane:communities:publish -n dealers

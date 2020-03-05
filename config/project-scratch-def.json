@@ -3,8 +3,18 @@
   "adminEmail": "platformpmmdemos@gmail.com",
   "edition": "Developer",
   "hasSampleData": true,
-  "features": ["Communities", "EinsteinAssistant", "SiteDotCom", "Sites", "DevelopmentWave"],
+  "features": [
+    "Communities",
+    "EinsteinAssistant",
+    "SiteDotCom",
+    "Sites",
+    "DevelopmentWave"
+  ],
   "settings": {
+    "analyticsSettings": {
+      "canShareAppsWithCommunities": true,
+      "enableAnalyticsSharingEnable": true
+    },
     "communitiesSettings": {
       "enableNetworksEnabled": true
     },
