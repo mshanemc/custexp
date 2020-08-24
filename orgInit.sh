@@ -19,6 +19,7 @@ sfdx shane:communities:publish -n dealers
 sfdx shane:communities:publish -n externalid
 sfdx shane:analytics:app:share -n SharedApp --allprm --allcsp -c
 sfdx shane:theme:activate -n Electron
+sfdx shane:listview:favorite -o Test_Drive__c -t All
 sfdx force:org:open
 sfdx force:mdapi:deploy -d unpackagedMdapi/ -w 20 
 sfdx force:apex:execute -f scripts/sampleWipe.cls
