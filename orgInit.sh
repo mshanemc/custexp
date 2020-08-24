@@ -30,10 +30,12 @@ sfdx force:apex:execute -f scripts/dealerPerms.cls
 sfdx force:data:tree:import -p data/main/masterPlan.json 
 sfdx force:data:tree:import -p data/360/360plan.json
 sfdx force:data:record:create -s Account -v "Name=ExternalIDCustomers"
+sfdx shane:communities:selfreg -a ExternalIDCustomers -c externalid
 
 sfdx force:user:password:generate
 
 # heroku connect section
+
 sfdx shane:heroku:repo:deploy -g mshanemc -r electron-web-app -n `basename "${PWD/mshanemc-/}"` -t autodeployed-demos
 # heroku access:add platformpmmdemos@gmail.com -a `basename "${PWD/mshanemc-/}"` --permissions deploy,operate,manage
 heroku config:set DEALER_URL=`sfdx shane:communities:url --prefix dealers`  -a `basename "${PWD/mshanemc-/}"`
