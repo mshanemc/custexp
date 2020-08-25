@@ -12,15 +12,16 @@ sfdx force:user:permset:assign -n electron
 sfdx force:source:push
 # contentassets throw error when pushed at the same time as the community they're part of.
 sfdx force:user:permset:assign -n customerExpPerms
-
-sfdx shane:communities:activate -n dealers
-sfdx shane:communities:activate -n externalid
-sfdx shane:communities:publish -n dealers
-sfdx shane:communities:publish -n externalid
-sfdx shane:analytics:app:share -n SharedApp --allprm --allcsp -c
 sfdx shane:theme:activate -n Electron
 sfdx shane:listview:favorite -o Test_Drive__c -t All
+sfdx shane:analytics:app:share -n SharedApp --allprm --allcsp -c
+
 sfdx force:org:open
+
+sfdx shane:communities:activate -n dealers --json
+sfdx shane:communities:activate -n externalid --json
+sfdx shane:communities:publish -n dealers
+sfdx shane:communities:publish -n externalid
 sfdx force:mdapi:deploy -d unpackagedMdapi/ -w 20 
 sfdx force:apex:execute -f scripts/sampleWipe.cls
 sfdx force:apex:execute -f scripts/roleAssign.cls
